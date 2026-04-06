@@ -59,9 +59,9 @@ MODELS_DIR = os.path.join(BASE_DIR, 'models')
 os.makedirs(RESULTS_DIR, exist_ok=True)
 os.makedirs(MODELS_DIR, exist_ok=True)
 
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # Dataset
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 class WorldModelDataset(Dataset):
     """PyTorch Dataset for paired (env, pfam, bio, bio_valid) tuples.
@@ -109,9 +109,9 @@ class WorldModelDataset(Dataset):
             torch.tensor(bool(self.bio_valid[idx]), dtype=torch.bool),
         )
 
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # Training Loop
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def train_one_epoch(model, dataloader, optimizer, device, grad_clip=1.0):
     """Train for one epoch. Returns dict of mean losses."""
@@ -297,9 +297,9 @@ def train_fold(model, train_dataset, val_dataset, config, device, fold_name=''):
 
     return best_model_state, history, summary
 
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # Gradient Flow Verification
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def verify_gradient_flow(env, pfam, bio, bio_valid, device, n_samples=100,
                          n_steps=50, config=None):
@@ -432,9 +432,9 @@ def verify_gradient_flow(env, pfam, bio, bio_valid, device, n_samples=100,
     report = '\n'.join(report_lines)
     return checks_passed == checks_total, report
 
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # Cross-Validation Fold Setup
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def build_cv_folds(sample_ids, metadata_path, basin_assignments_path):
     """Build leave-one-basin-out CV folds.
@@ -475,9 +475,9 @@ def build_cv_folds(sample_ids, metadata_path, basin_assignments_path):
 
     return folds, basin_labels
 
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # Main Training Pipeline
-# ═══════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def main(config=None):
     """Run full training pipeline with spatial block CV.

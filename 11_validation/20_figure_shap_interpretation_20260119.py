@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Task 20: Publication Figure - SHAP Interpretation
-==================================================
+# --------------------------------------------------------------------------
 
 4-panel SHAP interpretation figure showing feature dependencies and interactions.
 

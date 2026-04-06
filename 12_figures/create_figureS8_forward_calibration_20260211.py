@@ -112,9 +112,9 @@ for p, name in [(MERGED_PATH, 'Merged dataset'), (FORWARD_R2_PATH, 'Forward R² 
         sys.exit(1)
     print(f"  {name}: {os.path.getsize(p):,} bytes")
 
-# ══════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # STEP 1: Load data and run spatial block CV for top 6 domains
-# ══════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 print("\n=== Loading merged dataset ===")
 with open(MERGED_PATH, 'r') as f:
     for line in f:
@@ -257,9 +257,9 @@ for fi, target in enumerate(available_targets):
           f"R2={overall_r2:.4f} (median={med:.4f}) [{elapsed:.1f}s]")
     sys.stdout.flush()
 
-# ══════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # STEP 2: Load full R² distribution data
-# ══════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 print("\n=== Loading forward R² distribution ===")
 r2_df = pd.read_csv(FORWARD_R2_PATH, sep='\t', comment='#')
 r2_values = r2_df['r2_mean'].values
@@ -267,9 +267,9 @@ print(f"  Domains: {len(r2_values)}")
 print(f"  R² > 0: {(r2_values > 0).sum()} ({(r2_values > 0).sum()/len(r2_values)*100:.1f}%)")
 print(f"  R² > 0.3: {(r2_values > 0.3).sum()}")
 
-# ══════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # STEP 3: Create Figure S8 - Combined calibration + distribution
-# ══════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 print("\n=== Creating figure ===")
 
 import matplotlib

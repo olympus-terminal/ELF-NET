@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Figure 6: Sparse world model - joint embedding, ablation, and counterfactual analysis.
-========================================================================================
+# --------------------------------------------------------------------------
 
 Layout (11 panels, basin map removed — shown in separate figure):
   Row 0: Panels A-B  - Training curves + embedding alignment (half each)
@@ -215,9 +215,9 @@ gs_row3 = gridspec.GridSpecFromSubplotSpec(1, 4, subplot_spec=gs_top[3],
                                             width_ratios=[1.3, 0.05, 1.1, 1.0],
                                             wspace=0.25)
 
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # ROW 0: Panels A-B (training + embedding alignment)
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # Panel A: Training curves
 ax_a = fig.add_subplot(gs_row0[0])
@@ -260,9 +260,9 @@ cbar_b.set_ticks([0.0, 0.5, 1.0])
 cbar_b.ax.tick_params(labelsize=5, width=0.25, length=1.5, pad=1)
 cbar_b.outline.set_linewidth(0.25)
 
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # ROW 1: Panels C-D (UMAP by basin + UMAP by chl-a)
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # Panel C: UMAP by basin
 ax_c = fig.add_subplot(gs_row1[0])
@@ -299,9 +299,9 @@ cbar_d.set_label('log10(chl-a)', fontsize=6)
 cbar_d.ax.tick_params(labelsize=6, width=0.25, length=1.5)
 cbar_d.outline.set_linewidth(0.25)
 
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # ROW 2: Panels E-H (ablation — compact)
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # Panel E: Overall R2 bar chart
 ax_e = fig.add_subplot(gs_row2[0])
@@ -423,9 +423,9 @@ ax_h.set_xlabel('R2 difference')
 ax_h.set_title('H', loc='left', fontweight='bold', fontsize=8)
 ax_h.invert_yaxis()
 
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # ROW 3: Panels I-K (counterfactual)
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # Panel I: World map (+2C SST effect)
 ax_i = fig.add_subplot(gs_row3[0], projection=ccrs.Robinson())
@@ -515,9 +515,9 @@ ax_k.annotate('', xy=(0.5 + mean_shift[0], mean_shift[1]),
               arrowprops=dict(arrowstyle='->', color='black', lw=0.5))
 ax_k.text(0.5 + mean_shift[0] + 0.1, mean_shift[1], '+2C', fontsize=6)
 
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # Save figure
-# ═══════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 out_base = os.path.join(FIG_DIR, f"Figure6_worldmodel_{ts}")

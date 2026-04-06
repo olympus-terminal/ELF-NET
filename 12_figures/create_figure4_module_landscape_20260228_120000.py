@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Figure 4: Modular Organization of Domain-Environment Coupling (K-means rework)
-===============================================================================
+# --------------------------------------------------------------------------
 
 Replaces arbitrary head(500) + independent Ward linkage with:
   - Principled SHAP threshold-based domain selection (≥5% of max mean norm|SHAP|)

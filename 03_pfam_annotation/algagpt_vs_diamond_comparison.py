@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 AlgaGPT vs DIAMOND BLAST Comparative Analysis
-===============================================
+# --------------------------------------------------------------------------
 Compares LLM-based protein classification (algaGPT: algae/conta) against
 DIAMOND BLASTp hits (NR database, e-value < 1e-9) on the original unfiltered
 protein set (02_processed_data/proteins/).

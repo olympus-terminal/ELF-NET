@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Task 1: K-Fold Cross-Validation - GEE Variables
-=================================================
+# --------------------------------------------------------------------------
 
 5-fold stratified cross-validation for ALL 29 GEE environmental variables using
 PFAM domain profiles as predictors.

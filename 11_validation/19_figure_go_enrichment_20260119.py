@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Task 19: Publication Figure - GO Enrichment
-============================================
+# --------------------------------------------------------------------------
 
 4-panel GO enrichment figure showing functional annotations.
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-==============================================================================
+# --------------------------------------------------------------------------
 Data Preparation: Environment → Pfam Prediction Model
-==============================================================================
+# --------------------------------------------------------------------------
 
 Purpose: Prepare training data for predicting Pfam domain profiles from
          environmental features (GEE variables + AlphaEarth embeddings).
@@ -20,7 +20,7 @@ Creates datasets for BOTH filtering strategies:
 
 Author: TARA-LA4SR Analysis Pipeline
 Date: 2026-01-25
-==============================================================================
+# --------------------------------------------------------------------------
 """
 
 import numpy as np

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Figure 5: PFAM SHAP Importance across AlphaEarth Foundation Dimensions
-======================================================================
+# --------------------------------------------------------------------------
 
 K-means k=16 biclustered heatmap with PFAM functional annotations.
 Uses full vertical space with well-defined cluster separations.

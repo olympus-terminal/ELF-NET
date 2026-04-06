@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Task 18: Publication Figure - Module Discovery
-===============================================
+# --------------------------------------------------------------------------
 
 4-panel module discovery figure showing clustering and environment enrichment.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Task 17: Publication Figure - Validation Summary
-=================================================
+# --------------------------------------------------------------------------
 
 4-panel validation summary figure consolidating k-fold CV and permutation test results.
 

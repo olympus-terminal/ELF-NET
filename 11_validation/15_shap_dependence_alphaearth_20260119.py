@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Task 15: SHAP Dependence Analysis - AlphaEarth Dimensions
-==========================================================
+# --------------------------------------------------------------------------
 
 Compute SHAP values for ALL PFAMs across 64 AlphaEarth embedding dimensions.
 Uses TreeExplainer to extract feature importance and interaction patterns.

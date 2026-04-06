@@ -108,10 +108,10 @@ def bg_box(ax, x, y, w, h, color, label):
             ha='center', va='top', fontsize=T4, fontweight='bold',
             color=color, alpha=0.60)
 
-# ════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # LAYOUT — use full page, ~7×10.5, ylim [0,1]
 # Each row gets explicit y-center with guaranteed gap
-# ════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 fig, ax = plt.subplots(1, 1, figsize=(7.0, 10.5))
 ax.set_xlim(-0.02, 1.02)

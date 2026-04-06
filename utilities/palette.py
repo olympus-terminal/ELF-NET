@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Earth-from-Space Palette for TARA Oceans Manuscript
-=====================================================
+# --------------------------------------------------------------------------
 
 Unified color scheme based on natural Earth colors as seen from orbit:
 deep ocean blues, coastal turquoise, land greens, earth tones, cloud/ice white.
@@ -18,9 +18,9 @@ Created: 2026-02-05
 from matplotlib.colors import LinearSegmentedColormap
 import numpy as np
 
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # PRIMARY COLOR DEFINITIONS - Earth from Space
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # ── Deep Ocean Blues ──────────────────────────────────────────────────────────
 ABYSS = (0.004, 0.098, 0.220)           # #010E38 - Mariana depth
@@ -49,9 +49,9 @@ CLOUD_WHITE = (0.965, 0.973, 0.980)     # #F7F8FA - Cirrus
 ICE_WHITE = (0.918, 0.941, 0.961)       # #EAF0F5 - Polar ice
 SNOW = (0.980, 0.984, 0.988)            # #FAFBFC - Fresh snow
 
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # SEQUENTIAL COLORMAPS (for non-negative data: abundance, counts, R², etc.)
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # Ocean depth: white → deep blue (for abundance, counts)
 _OCEAN_SEQ = [
@@ -99,9 +99,9 @@ _COASTAL_SEQ = [
 ]
 COASTAL_CMAP = LinearSegmentedColormap.from_list('earth_coastal', _COASTAL_SEQ, N=256)
 
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # DIVERGING COLORMAPS (for data centered at zero: correlations, residuals)
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # Ocean-Land diverging: blue (negative) ↔ white ↔ brown (positive)
 _OCEAN_LAND_DIV = [
@@ -133,9 +133,9 @@ _COOL_DIV = [
 ]
 COOL_DIVERGING_CMAP = LinearSegmentedColormap.from_list('earth_cool_div', _COOL_DIV, N=256)
 
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # CATEGORICAL COLORS (for discrete groups: basins, lineages, modules)
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 # 10-color categorical palette from Earth tones
 EARTH_CATEGORICAL = [
@@ -206,9 +206,9 @@ MODULE_COLORS = [
     OCEAN_BLUE,
 ]
 
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # HELPER FUNCTIONS
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def get_sequential_cmap(data_type='ocean'):
     """
@@ -290,9 +290,9 @@ def hex_to_rgb(hex_color):
     hex_color = hex_color.lstrip('#')
     return tuple(int(hex_color[i:i+2], 16) / 255.0 for i in (0, 2, 4))
 
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # VALIDATION / USAGE GUIDE
-# ══════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 COLORMAP_RULES = """
 COLORMAP SELECTION RULES

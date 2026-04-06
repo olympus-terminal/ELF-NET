@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Figure S9: Structural Characterization of Top Novel Domains
-=============================================================
+# --------------------------------------------------------------------------
 
 Three-panel supplementary figure:
 

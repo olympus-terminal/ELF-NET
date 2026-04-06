@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Figure 7: Novel Domain Characterization
-=========================================
+# --------------------------------------------------------------------------
 
 Single-row 4-panel figure (7.5 x 2.5 in) — compact, high data density.
 
@@ -71,9 +71,9 @@ def classify_source(name):
         return 'NCBI genome'
     return 'Other'
 
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # PANEL A — Cluster size distribution (log-log)
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def draw_panel_a(ax):
     df = pd.read_csv(DATA_DIR / 'cluster_size_distribution.tsv', sep='\t')
@@ -118,9 +118,9 @@ def draw_panel_a(ax):
     ax.spines['right'].set_visible(False)
     ax.set_title('A', loc='left', fontweight='bold', fontsize=8, pad=2)
 
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # PANEL B — Domain prevalence histogram
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def draw_panel_b(ax):
     df = pd.read_csv(DATA_DIR / 'novel_domain_prevalence.tsv', sep='\t')
@@ -147,9 +147,9 @@ def draw_panel_b(ax):
     ax.spines['right'].set_visible(False)
     ax.set_title('B', loc='left', fontweight='bold', fontsize=8, pad=2)
 
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # PANEL C — Novel vs Pfam environmental effect sizes
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def draw_panel_c(ax):
     """Compact grouped comparison: Pfam vs novel domain environmental coupling.
@@ -204,9 +204,9 @@ def draw_panel_c(ax):
               handlelength=0.8, handletextpad=0.3)
     ax.set_title('C', loc='left', fontweight='bold', fontsize=8, pad=2)
 
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # PANEL D — Family size vs prevalence scatter (by source type)
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def draw_panel_d(ax):
     """Scatter: cluster_size vs n_samples for all 33,950 novel domains,
@@ -241,9 +241,9 @@ def draw_panel_d(ax):
     ax.spines['right'].set_visible(False)
     ax.set_title('D', loc='left', fontweight='bold', fontsize=8, pad=2)
 
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 # MAIN
-# ═════════════════════════════════════════════════════════════════════════════
+# --------------------------------------------------------------------------
 
 def main():
     print('=' * 70)
