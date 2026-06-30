@@ -1,60 +1,45 @@
 # ELF-NET
 
-**Protein language model classification and satellite embeddings reveal microalgal genome-environment coupling on a global manifold**
+**Coupling of oceanographic state to the dark proteome: a foundation for genome-informed marine productivity modeling**
 
-Computational pipelines and analysis scripts accompanying the ELF-NET manuscript.
-
-## Overview
-
-ELF-NET integrates protein language model classification, PFAM domain annotation, satellite foundation model embeddings, and machine learning to characterize genome-environment coupling across 2,357 ocean samples and 221.9 million algal protein sequences.
+Complete analysis pipeline (371 scripts, 15 modules) for the ELF-NET study, integrating protein language model classification, Pfam domain annotation, satellite foundation model embeddings, and machine learning to characterize genome-environment coupling across 2,357 ocean samples and 221.9 million algal protein sequences from the TARA Oceans metagenomic dataset.
 
 ## Repository Structure
 
 | Module | Description | Scripts |
 |--------|-------------|---------|
 | `01_la4sr_inference/` | LA4SR (Pythia-based) protein language model inference | 6 |
-| `02_algagpt_inference/` | AlgaGPT (nanoGPT-based) inference and post-processing | 8 |
+| `02_algagpt_inference/` | algaGPT (nanoGPT-based) inference and post-processing | 8 |
 | `03_pfam_annotation/` | Pfam hmmsearch, RuBisCO lineage detection, DIAMOND BLASTp validation | 10 |
 | `04_environmental_data/` | Google Earth Engine extraction, AlphaEarth embeddings, WOA23 nutrients | 7 |
 | `05_xgboost_shap/` | Bidirectional XGBoost/SHAP modeling (domain-to-environment, environment-to-domain) | 14 |
-| `06_manifold_reduction/` | UMAP, t-SNE, PCA dimensionality reduction pipelines | 14 |
+| `06_manifold_reduction/` | UMAP, t-SNE, PCA dimensionality reduction | 14 |
 | `07_kan_cca/` | Sparse CCA and Kolmogorov-Arnold Network CCA | 30 |
 | `08_novel_domains/` | De novo domain discovery: MMseqs2 clustering, HMM construction, ESMFold, Foldseek | 41 |
 | `09_novel_families/` | Novel protein family characterization (Track A/B pipelines) | 40 |
 | `10_decoding_experiment/` | Greedy vs. top-k decoding strategy comparison | 6 |
-| `11_validation/` | Robustness testing: spatial block CV, bootstrap CI, permutation tests, sensitivity analyses, temporal stability, feature stability, SHAP interactions | 93 |
+| `11_validation/` | Robustness: spatial block CV, bootstrap CI, permutation tests, sensitivity analyses, temporal stability | 93 |
 | `12_figures/` | Publication figure generation (main + supplemental) | 60 |
-| `13_selection_analysis/` | Cross-taxonomic dark-vs-white selection analysis (pN/pS, dN/dS) for *C. reinhardtii*, *S. robusta*, *Synechococcus*, *T. pseudonana* | 13 |
-| `14_dark_proteome_characterization/` | Physicochemical characterization, dipeptide O/E, AF3 structure analysis, rank-binned ESMFold | 20 |
+| `13_selection_analysis/` | Cross-taxonomic dark-vs-white pN/pS and dN/dS (*C. reinhardtii*, *S. robusta*, *Synechococcus*, *T. pseudonana*) | 13 |
+| `14_dark_proteome_characterization/` | Physicochemical characterization, dipeptide O/E, AF3/Boltz-2 structure analysis | 20 |
 | `15_gpt2_learnability/` | GPT-2 protein language model learnability comparison (five corpora) | 2 |
-| `utilities/` | Shared modules: color palette, style, data integrity guard, VICReg world model architecture | 7 |
-
-**Total: 371 scripts across 15 modules**
+| `utilities/` | Shared modules: color palette, style, data integrity guard, VICReg architecture | 7 |
 
 ## Key Methods
 
-### Protein Language Model Classification
-- **LA4SR-Pythia**: Transformer-based classifier trained on amino acid representations to distinguish algal from non-algal sequences, bypassing homology dependence
-- **AlgaGPT**: nanoGPT-based alternative architecture for proteome extraction
+**Protein classification.** algaGPT (nanoGPT-based) and LA4SR (Pythia-based) classifiers extract algal proteomes from metagenomic assemblies at >99% recall, ~10,000x faster than BLASTp.
 
-### Satellite Foundation Model Integration
-- **AlphaEarth**: 64-dimensional satellite embeddings fused with metagenomic Pfam domain profiles -- first integration of satellite foundation models with ocean metagenomics
+**Satellite-metagenome fusion.** AlphaEarth 64-dimensional satellite embeddings fused with Pfam domain profiles -- first integration of satellite foundation models with ocean metagenomics.
 
-### Bidirectional Genome-Environment Modeling
-- XGBoost with SHAP decomposition for forward (domain-to-environment) and reverse (environment-to-domain) prediction under spatial block cross-validation
+**Bidirectional modeling.** XGBoost with SHAP decomposition for forward (environment-to-domain) and reverse (domain-to-environment) prediction under spatial block cross-validation. Sea surface temperature predicted from Pfam composition at R² = 0.38.
 
-### Nonlinear Coupling Analysis
-- Sparse CCA and KAN-CCA for detecting linear and nonlinear genome-environment coupling, including two-regime structure in harmful algal bloom monitoring bands
+**Nonlinear coupling.** Sparse CCA and KAN-CCA detect linear and nonlinear genome-environment coupling, including two-regime structure in harmful algal bloom monitoring bands.
 
-### De Novo Domain Discovery
-- MMseqs2 clustering of 201 million unannotated proteins into 33,950 novel domain families
-- ESMFold and Boltz-2/AlphaFold 3 structure prediction with Foldseek structural similarity search
+**Dark proteome discovery.** MMseqs2 clustering of 201 million unannotated proteins into 33,950 novel domain families. Structure prediction via ESMFold, Boltz-2, and AlphaFold 3 with Foldseek homology search.
 
-### Cross-Taxonomic Selection Analysis
-- pN/pS and dN/dS comparison of dark (unannotated) vs. white (Pfam-annotated) genes across four lineages
+**Selection analysis.** pN/pS and dN/dS comparison of dark (unannotated) vs. white (Pfam-annotated) genes across four lineages shows dark proteins are under purifying selection comparable to annotated genes.
 
-### Protein Language Model Learnability
-- GPT-2 Small trained from scratch on five protein-sequence corpora (white, algae, dark, composition-matched random, uniform random) to test whether dark proteome sequences carry learnable structure
+**Learnability test.** GPT-2 Small trained from scratch on five protein-sequence corpora ranks learnability as white > algae > dark > random, placing dark proteins between annotated proteins and random controls.
 
 ## Computational Environment
 
@@ -66,34 +51,70 @@ SBATCH submission scripts (`.sbatch`) are included for HPC reproducibility.
 
 ## Dependencies
 
-Core Python packages:
-- `numpy`, `pandas`, `scipy`, `scikit-learn`
-- `xgboost`, `shap`
-- `umap-learn`, `matplotlib`
-- `torch` (PyTorch) -- for KAN-CCA, VICReg world model, and GPT-2 training
-- `transformers` -- for LA4SR/AlgaGPT inference
-- `biopython` -- for sequence processing
+**Python packages:** `numpy`, `pandas`, `scipy`, `scikit-learn`, `xgboost`, `shap`, `umap-learn`, `matplotlib`, `torch`, `transformers`, `biopython`
 
-External tools:
-- HMMER 3.x (`hmmsearch`)
-- MMseqs2
-- ESMFold / Boltz-2 / AlphaFold 3
-- Foldseek
-- SNAP (gene prediction)
-- InterProScan 5.74-105.0
-- nanoGPT
+**External tools:** HMMER 3.x, MMseqs2, ESMFold, Boltz-2, AlphaFold 3, Foldseek, SNAP, InterProScan 5.74-105.0, nanoGPT
 
-## Related Resources
+## Trained Models (Hugging Face)
 
-### Trained Models (Hugging Face)
-- [algaGPT](https://huggingface.co/GreenGenomicsLab/algaGPT) -- Protein classification model
-- [TARA-XGBoost-Bidirectional](https://huggingface.co/GreenGenomicsLab/TARA-XGBoost-Bidirectional) -- Bidirectional XGBoost models
-- [TARA-WorldModel-VICReg](https://huggingface.co/GreenGenomicsLab/TARA-WorldModel-VICReg) -- VICReg joint embedding checkpoints
-- [dark-whiteGPLM](https://huggingface.co/SarahDaakour/dark-whiteGPLM) -- GPT-2 protein language model checkpoints
-- [dark-whiteGPLM-data](https://huggingface.co/datasets/SarahDaakour/dark-whiteGPLM-data) -- Training data
+| Model | Description | Link |
+|-------|-------------|------|
+| algaGPT | Protein classification (algal vs. contaminant) | [GreenGenomicsLab/algaGPT](https://huggingface.co/GreenGenomicsLab/algaGPT) |
+| TARA-XGBoost-Bidirectional | Bidirectional XGBoost (env-domain coupling) | [GreenGenomicsLab/TARA-XGBoost-Bidirectional](https://huggingface.co/GreenGenomicsLab/TARA-XGBoost-Bidirectional) |
+| TARA-WorldModel-VICReg | VICReg joint embedding (exploratory) | [GreenGenomicsLab/TARA-WorldModel-VICReg](https://huggingface.co/GreenGenomicsLab/TARA-WorldModel-VICReg) |
+| dark-whiteGPLM | GPT-2 protein language model checkpoints | [SarahDaakour/dark-whiteGPLM](https://huggingface.co/SarahDaakour/dark-whiteGPLM) |
+| dark-whiteGPLM-data | Training data for learnability comparison | [SarahDaakour/dark-whiteGPLM-data](https://huggingface.co/datasets/SarahDaakour/dark-whiteGPLM-data) |
 
-### Data Deposits (Zenodo)
-Input data and model outputs are deposited at Zenodo (accession numbers provided in the manuscript).
+## Data Deposits (Zenodo)
+
+| Deposit | DOI |
+|---------|-----|
+| Data S1: Domain-environment association and modeling results | [10.5281/zenodo.18538439](https://doi.org/10.5281/zenodo.18538439) |
+| Data S2: algaGPT-purified algal protein sequences | [10.5281/zenodo.18728837](https://doi.org/10.5281/zenodo.18728837) |
+| Data S3: Pfam-A hmmsearch results | [10.5281/zenodo.18786751](https://doi.org/10.5281/zenodo.18786751) |
+| Data S4: RuBisCO lineage analysis package | [10.5281/zenodo.18786775](https://doi.org/10.5281/zenodo.18786775) |
+| Data S5: AlphaEarth satellite embedding matrix | [10.5281/zenodo.18786762](https://doi.org/10.5281/zenodo.18786762) |
+| Data S6: KAN-CCA and sparse CCA results | [10.5281/zenodo.18786766](https://doi.org/10.5281/zenodo.18786766) |
+| Data S7: Novel domain discovery results | [10.5281/zenodo.18786771](https://doi.org/10.5281/zenodo.18786771) |
+| Data S8: DIAMOND BLASTp comparison | [10.5281/zenodo.19441356](https://doi.org/10.5281/zenodo.19441356) |
+| Data S9: Cross-taxonomic selection analysis | [10.5281/zenodo.20486974](https://doi.org/10.5281/zenodo.20486974) |
+| Data S10: Boltz-2 and AlphaFold 3 structure predictions | [10.5281/zenodo.20508681](https://doi.org/10.5281/zenodo.20508681) |
+| Data S11: Protein language model learnability analysis | [10.5281/zenodo.20933333](https://doi.org/10.5281/zenodo.20933333) |
+
+## Authors
+
+David Roy Nelson, Maxence Plouviez, Sarah Daakour, Ashish Jaiswal, Weiqi Fu, Shady A. Amin, Kourosh Salehi-Ashtiani
+
+Green Genomics Lab, New York University Abu Dhabi
+
+## Citation
+
+```bibtex
+@article{nelson2026elfnet,
+  title   = {Coupling of oceanographic state to the dark proteome: a foundation for genome-informed marine productivity modeling},
+  author  = {Nelson, David Roy and Plouviez, Maxence and Daakour, Sarah and Jaiswal, Ashish and Fu, Weiqi and Amin, Shady A. and Salehi-Ashtiani, Kourosh},
+  journal = {Forthcoming},
+  year    = {2026}
+}
+```
+
+algaGPT was introduced in:
+
+```bibtex
+@article{nelson2025la4sr,
+  title   = {Pan-microalgal dark proteome mapping via interpretable deep learning and synthetic chimeras},
+  author  = {Nelson, David R. and Jaiswal, Ashish Kumar and Ismail, Noha Samir and Mystikou, Alexandra and Salehi-Ashtiani, Kourosh},
+  journal = {Patterns},
+  volume  = {6},
+  pages   = {101373},
+  year    = {2025},
+  doi     = {10.1016/j.patter.2025.101373}
+}
+```
+
+## Contact
+
+Kourosh Salehi-Ashtiani -- ksa3@nyu.edu
 
 ## License
 
