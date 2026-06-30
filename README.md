@@ -10,32 +10,35 @@ ELF-NET integrates protein language model classification, PFAM domain annotation
 
 ## Repository Structure
 
-| Directory | Description | Scripts |
-|-----------|-------------|---------|
+| Module | Description | Scripts |
+|--------|-------------|---------|
 | `01_la4sr_inference/` | LA4SR (Pythia-based) protein language model inference | 6 |
-| `02_algagpt_inference/` | AlgaGPT alternative LLM inference and post-processing | 8 |
-| `03_pfam_annotation/` | PFAM hmmsearch, RuBisCO detection, DIAMOND BLASTp validation | 10 |
+| `02_algagpt_inference/` | AlgaGPT (nanoGPT-based) inference and post-processing | 8 |
+| `03_pfam_annotation/` | Pfam hmmsearch, RuBisCO lineage detection, DIAMOND BLASTp validation | 10 |
 | `04_environmental_data/` | Google Earth Engine extraction, AlphaEarth embeddings, WOA23 nutrients | 7 |
 | `05_xgboost_shap/` | Bidirectional XGBoost/SHAP modeling (domain-to-environment, environment-to-domain) | 14 |
 | `06_manifold_reduction/` | UMAP, t-SNE, PCA dimensionality reduction pipelines | 14 |
 | `07_kan_cca/` | Sparse CCA and Kolmogorov-Arnold Network CCA | 30 |
-| `08_novel_domains/` | De novo domain discovery: MMseqs2 clustering, HMM construction, ESMFold, Foldseek | 38 |
+| `08_novel_domains/` | De novo domain discovery: MMseqs2 clustering, HMM construction, ESMFold, Foldseek | 41 |
 | `09_novel_families/` | Novel protein family characterization (Track A/B pipelines) | 40 |
 | `10_decoding_experiment/` | Greedy vs. top-k decoding strategy comparison | 6 |
-| `11_validation/` | k-fold CV, permutation tests, feature stability, SHAP interactions | 24 |
-| `12_figures/` | Publication figure generation scripts | 25 |
-| `utilities/` | Shared modules: color palette, data integrity guard, world model architecture | 5 |
+| `11_validation/` | Robustness testing: spatial block CV, bootstrap CI, permutation tests, sensitivity analyses, temporal stability, feature stability, SHAP interactions | 93 |
+| `12_figures/` | Publication figure generation (main + supplemental) | 60 |
+| `13_selection_analysis/` | Cross-taxonomic dark-vs-white selection analysis (pN/pS, dN/dS) for *C. reinhardtii*, *S. robusta*, *Synechococcus*, *T. pseudonana* | 13 |
+| `14_dark_proteome_characterization/` | Physicochemical characterization, dipeptide O/E, AF3 structure analysis, rank-binned ESMFold | 20 |
+| `15_gpt2_learnability/` | GPT-2 protein language model learnability comparison (five corpora) | 2 |
+| `utilities/` | Shared modules: color palette, style, data integrity guard, VICReg world model architecture | 7 |
 
-**Total: 227 scripts**
+**Total: 371 scripts across 15 modules**
 
 ## Key Methods
 
 ### Protein Language Model Classification
 - **LA4SR-Pythia**: Transformer-based classifier trained on amino acid representations to distinguish algal from non-algal sequences, bypassing homology dependence
-- **AlgaGPT**: Alternative LLM architecture for proteome extraction comparison
+- **AlgaGPT**: nanoGPT-based alternative architecture for proteome extraction
 
 ### Satellite Foundation Model Integration
-- **AlphaEarth**: 64-dimensional satellite embeddings fused with metagenomic PFAM domain profiles -- first integration of satellite foundation models with ocean metagenomics
+- **AlphaEarth**: 64-dimensional satellite embeddings fused with metagenomic Pfam domain profiles -- first integration of satellite foundation models with ocean metagenomics
 
 ### Bidirectional Genome-Environment Modeling
 - XGBoost with SHAP decomposition for forward (domain-to-environment) and reverse (environment-to-domain) prediction under spatial block cross-validation
@@ -45,7 +48,13 @@ ELF-NET integrates protein language model classification, PFAM domain annotation
 
 ### De Novo Domain Discovery
 - MMseqs2 clustering of 201 million unannotated proteins into 33,950 novel domain families
-- ESMFold structure prediction and Foldseek structural similarity search
+- ESMFold and Boltz-2/AlphaFold 3 structure prediction with Foldseek structural similarity search
+
+### Cross-Taxonomic Selection Analysis
+- pN/pS and dN/dS comparison of dark (unannotated) vs. white (Pfam-annotated) genes across four lineages
+
+### Protein Language Model Learnability
+- GPT-2 Small trained from scratch on five protein-sequence corpora (white, algae, dark, composition-matched random, uniform random) to test whether dark proteome sequences carry learnable structure
 
 ## Computational Environment
 
@@ -61,19 +70,29 @@ Core Python packages:
 - `numpy`, `pandas`, `scipy`, `scikit-learn`
 - `xgboost`, `shap`
 - `umap-learn`, `matplotlib`
-- `torch` (PyTorch) -- for KAN-CCA and world model
+- `torch` (PyTorch) -- for KAN-CCA, VICReg world model, and GPT-2 training
 - `transformers` -- for LA4SR/AlgaGPT inference
 - `biopython` -- for sequence processing
 
 External tools:
 - HMMER 3.x (`hmmsearch`)
 - MMseqs2
-- ESMFold
+- ESMFold / Boltz-2 / AlphaFold 3
 - Foldseek
 - SNAP (gene prediction)
+- InterProScan 5.74-105.0
+- nanoGPT
 
-## Data Availability
+## Related Resources
 
+### Trained Models (Hugging Face)
+- [algaGPT](https://huggingface.co/GreenGenomicsLab/algaGPT) -- Protein classification model
+- [TARA-XGBoost-Bidirectional](https://huggingface.co/GreenGenomicsLab/TARA-XGBoost-Bidirectional) -- Bidirectional XGBoost models
+- [TARA-WorldModel-VICReg](https://huggingface.co/GreenGenomicsLab/TARA-WorldModel-VICReg) -- VICReg joint embedding checkpoints
+- [dark-whiteGPLM](https://huggingface.co/SarahDaakour/dark-whiteGPLM) -- GPT-2 protein language model checkpoints
+- [dark-whiteGPLM-data](https://huggingface.co/datasets/SarahDaakour/dark-whiteGPLM-data) -- Training data
+
+### Data Deposits (Zenodo)
 Input data and model outputs are deposited at Zenodo (accession numbers provided in the manuscript).
 
 ## License

@@ -1,0 +1,342 @@
+Entry	Gene Names	Organism (ID)	Pfam	Protein names	Gene Names (ordered locus)
+Q3AUG4	pyrG Syncc9902_2235	316279	PF06418;PF00117;	CTP synthase (EC 6.3.4.2) (Cytidine 5'-triphosphate synthase) (Cytidine triphosphate synthetase) (CTP synthetase) (CTPS) (UTP--ammonia ligase)	Syncc9902_2235
+Q3AUV1	panC/cmk Syncc9902_1914	316279	PF02224;PF02569;	Bifunctional pantoate ligase/cytidylate kinase [Includes: Pantothenate synthetase (PS) (EC 6.3.2.1) (Pantoate--beta-alanine ligase) (Pantoate-activating enzyme); Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)]	Syncc9902_1914
+Q3AV15	psbA2 Syncc9902_1814; psbA3 Syncc9902_1817; psbA4 Syncc9902_2036	316279	PF00124;	Photosystem II protein D1 2 (PSII D1 protein 2) (EC 1.10.3.9) (Photosystem II Q(B) protein 2)	Syncc9902_1814; Syncc9902_1817; Syncc9902_2036
+Q3AVC2	ilvC Syncc9902_1550	316279	PF01450;PF07991;	Ketol-acid reductoisomerase (NADP(+)) (KARI) (EC 1.1.1.86) (Acetohydroxy-acid isomeroreductase) (AHIR) (Alpha-keto-beta-hydroxylacyl reductoisomerase) (Ketol-acid reductoisomerase type 1) (Ketol-acid reductoisomerase type I)	Syncc9902_1550
+Q3AVF3	glmU Syncc9902_1328	316279	PF00132;PF12804;	Bifunctional protein GlmU [Includes: UDP-N-acetylglucosamine pyrophosphorylase (EC 2.7.7.23) (N-acetylglucosamine-1-phosphate uridyltransferase); Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)]	Syncc9902_1328
+Q3AVV5	ndk Syncc9902_2171	316279	PF00334;	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	Syncc9902_2171
+Q3AYB8	psbA1 Syncc9902_0943	316279	PF00124;	Photosystem II protein D1 1 (PSII D1 protein 1) (EC 1.10.3.9) (Photosystem II Q(B) protein 1)	Syncc9902_0943
+Q3AZ58	mtnD Syncc9902_0651	316279	PF03079;	Acireductone dioxygenase (1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase) (DHK-MTPene dioxygenase) (Acireductone dioxygenase (Fe(2+)-requiring)) (ARD') (Fe-ARD) (EC 1.13.11.54) (Acireductone dioxygenase (Ni(2+)-requiring)) (ARD) (Ni-ARD) (EC 1.13.11.53)	Syncc9902_0651
+Q3AZA0	rlmN Syncc9902_0609	316279	PF04055;PF21016;	Probable dual-specificity RNA methyltransferase RlmN (EC 2.1.1.192) (23S rRNA (adenine(2503)-C(2))-methyltransferase) (23S rRNA m2A2503 methyltransferase) (Ribosomal RNA large subunit methyltransferase N) (tRNA (adenine(37)-C(2))-methyltransferase) (tRNA m2A37 methyltransferase)	Syncc9902_0609
+Q3AUF2	purT Syncc9902_2314	316279	PF02222;PF21244;PF22660;	Formate-dependent phosphoribosylglycinamide formyltransferase (EC 6.3.1.21) (5'-phosphoribosylglycinamide transformylase 2) (Formate-dependent GAR transformylase) (GAR transformylase 2) (GART 2) (Non-folate glycinamide ribonucleotide transformylase) (Phosphoribosylglycinamide formyltransferase 2)	Syncc9902_2314
+Q3AUG1	queC Syncc9902_2238	316279	PF06508;	7-cyano-7-deazaguanine synthase (EC 6.3.4.20) (7-cyano-7-carbaguanine synthase) (PreQ(0) synthase) (Queuosine biosynthesis protein QueC)	Syncc9902_2238
+Q3AUH7	ligA Syncc9902_2205	316279	PF00533;PF01653;PF03119;PF12826;PF14520;PF03120;	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	Syncc9902_2205
+Q3AUM0	gcvP Syncc9902_2188	316279	PF21478;PF02347;	Glycine dehydrogenase (decarboxylating) (EC 1.4.4.2) (Glycine cleavage system P-protein) (Glycine decarboxylase) (Glycine dehydrogenase (aminomethyl-transferring))	Syncc9902_2188
+Q3AUM3	pyrB Syncc9902_2051	316279	PF00185;PF02729;	Aspartate carbamoyltransferase catalytic subunit (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)	Syncc9902_2051
+Q3AUQ0	pth Syncc9902_2079	316279	PF01195;	Peptidyl-tRNA hydrolase (Pth) (EC 3.1.1.29)	Syncc9902_2079
+Q3AUR6	aroC Syncc9902_2040	316279	PF01264;	Chorismate synthase (CS) (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	Syncc9902_2040
+Q3AUT5	psaA Syncc9902_1995	316279	PF00223;	Photosystem I P700 chlorophyll a apoprotein A1 (EC 1.97.1.12) (PsaA)	Syncc9902_1995
+Q3AUT6	psaB Syncc9902_1994	316279	PF00223;	Photosystem I P700 chlorophyll a apoprotein A2 (EC 1.97.1.12) (PsaB)	Syncc9902_1994
+Q3AUU9	purM Syncc9902_1916	316279	PF00586;PF02769;	Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1) (AIR synthase) (AIRS) (Phosphoribosyl-aminoimidazole synthetase)	Syncc9902_1916
+Q3AUV9	recA Syncc9902_1949	316279	PF21096;PF00154;	Protein RecA (Recombinase A)	Syncc9902_1949
+Q3AUW2	rplD rpl4 Syncc9902_1956	316279	PF00573;	Large ribosomal subunit protein uL4 (50S ribosomal protein L4)	Syncc9902_1956
+Q3AUX0	rpsC rps3 Syncc9902_1961	316279	PF07650;PF00189;	Small ribosomal subunit protein uS3 (30S ribosomal protein S3)	Syncc9902_1961
+Q3AUX3	petB Syncc9902_1849	316279	PF00033;	Cytochrome b6	Syncc9902_1849
+Q3AUZ9	groEL2 groL2 Syncc9902_1747	316279	PF00118;	Chaperonin GroEL 2 (EC 5.6.1.7) (60 kDa chaperonin 2) (Chaperonin-60 2) (Cpn60 2)	Syncc9902_1747
+Q3AV08	obg Syncc9902_1824	316279	PF01018;PF01926;	GTPase Obg (EC 3.6.5.-) (GTP-binding protein Obg)	Syncc9902_1824
+Q3AV44	pnp Syncc9902_1794	316279	PF00013;PF03726;PF01138;PF03725;PF00575;	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8) (Polynucleotide phosphorylase) (PNPase)	Syncc9902_1794
+Q3AV47	serS Syncc9902_1791	316279	PF02403;PF00587;	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	Syncc9902_1791
+Q3AV54	accA Syncc9902_1633	316279	PF03255;	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 2.1.3.15)	Syncc9902_1633
+Q3AV73	mnmA Syncc9902_1521	316279	PF03054;PF20258;PF20259;	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.13)	Syncc9902_1521
+Q3AV89	ddl Syncc9902_1541	316279	PF07478;PF01820;	D-alanine--D-alanine ligase (EC 6.3.2.4) (D-Ala-D-Ala ligase) (D-alanylalanine synthetase)	Syncc9902_1541
+Q3AV90	miaB Syncc9902_1540	316279	PF04055;PF01938;PF00919;	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase (EC 2.8.4.3) ((Dimethylallyl)adenosine tRNA methylthiotransferase MiaB) (tRNA-i(6)A37 methylthiotransferase)	Syncc9902_1540
+Q3AV98	pyrH Syncc9902_1648	316279	PF00696;	Uridylate kinase (UK) (EC 2.7.4.22) (Uridine monophosphate kinase) (UMP kinase) (UMPK)	Syncc9902_1648
+Q3AVB7	panB Syncc9902_1545	316279	PF02548;	3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11) (Ketopantoate hydroxymethyltransferase) (KPHMT)	Syncc9902_1545
+Q3AVC3	clpP3 Syncc9902_1549	316279	PF00574;	ATP-dependent Clp protease proteolytic subunit 3 (EC 3.4.21.92) (Endopeptidase Clp 3)	Syncc9902_1549
+Q3AVE5	surE Syncc9902_1499	316279	PF01975;	5'-nucleotidase SurE (EC 3.1.3.5) (Nucleoside 5'-monophosphate phosphohydrolase)	Syncc9902_1499
+Q3AVF6	menD Syncc9902_1334	316279	PF02775;PF16582;PF02776;	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase (SEPHCHC synthase) (EC 2.2.1.9)	Syncc9902_1334
+Q3AVF9	glgA Syncc9902_1331	316279	PF08323;PF00534;	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	Syncc9902_1331
+Q3AVH3	pdxJ Syncc9902_1414	316279	PF03740;	Pyridoxine 5'-phosphate synthase (PNP synthase) (EC 2.6.99.2)	Syncc9902_1414
+Q3AVJ1	pheT Syncc9902_1135	316279	PF03483;PF03484;PF03147;PF01588;PF17759;	Phenylalanine--tRNA ligase beta subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase beta subunit) (PheRS)	Syncc9902_1135
+Q3AVL6	mraY Syncc9902_2311	316279	PF00953;PF10555;	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	Syncc9902_2311
+Q3AVL9	argG Syncc9902_2308	316279	PF20979;PF00764;	Argininosuccinate synthase (EC 6.3.4.5) (Citrulline--aspartate ligase)	Syncc9902_2308
+Q3AVP2	moaC Syncc9902_2276	316279	PF01967;	Cyclic pyranopterin monophosphate synthase (EC 4.6.1.17) (Molybdenum cofactor biosynthesis protein C)	Syncc9902_2276
+Q3AVP9	moaA Syncc9902_2269	316279	PF06463;PF04055;	GTP 3',8-cyclase (EC 4.1.99.22) (Molybdenum cofactor biosynthesis protein A)	Syncc9902_2269
+Q3AVR1	ureC Syncc9902_2257	316279	PF01979;PF00449;	Urease subunit alpha (EC 3.5.1.5) (Urea amidohydrolase subunit alpha)	Syncc9902_2257
+Q3AVS9	aspS Syncc9902_2233	316279	PF02938;PF00152;PF01336;	Aspartate--tRNA(Asp/Asn) ligase (EC 6.1.1.23) (Aspartyl-tRNA synthetase) (AspRS) (Non-discriminating aspartyl-tRNA synthetase) (ND-AspRS)	Syncc9902_2233
+Q3AVV3	alaS Syncc9902_2173	316279	PF02272;PF01411;PF07973;	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	Syncc9902_2173
+Q3AVV9	coaE Syncc9902_2167	316279	PF01121;	Dephospho-CoA kinase (EC 2.7.1.24) (Dephosphocoenzyme A kinase)	Syncc9902_2167
+Q3AVW5	eno Syncc9902_2161	316279	PF00113;PF03952;	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	Syncc9902_2161
+Q3AVX2	murG Syncc9902_2147	316279	PF04101;PF03033;	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	Syncc9902_2147
+Q3AVX6	pgk Syncc9902_2143	316279	PF00162;	Phosphoglycerate kinase (EC 2.7.2.3)	Syncc9902_2143
+Q3AVY3	mnmE trmE Syncc9902_2136	316279	PF01926;PF12631;PF10396;	tRNA modification GTPase MnmE (EC 3.6.-.-)	Syncc9902_2136
+Q3AVZ9	ndhH Syncc9902_2112	316279	PF00346;	NAD(P)H-quinone oxidoreductase subunit H (EC 7.1.1.-) (NAD(P)H dehydrogenase subunit H) (NADH-plastoquinone oxidoreductase subunit H) (NDH-1 subunit H) (NDH-H)	Syncc9902_2112
+Q3AW11	trpB Syncc9902_2098	316279	PF00291;	Tryptophan synthase beta chain (EC 4.2.1.20)	Syncc9902_2098
+Q3AW18	glyA Syncc9902_2091	316279	PF00464;	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	Syncc9902_2091
+Q3AW21	leuC Syncc9902_2088	316279	PF00330;	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Syncc9902_2088
+Q3AW32	glmM Syncc9902_2067	316279	PF02878;PF02879;PF02880;PF00408;	Phosphoglucosamine mutase (EC 5.4.2.10)	Syncc9902_2067
+Q3AW35	trmB Syncc9902_2064	316279	PF02390;	tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)	Syncc9902_2064
+Q3AW44	dapL Syncc9902_2031	316279	PF00155;	LL-diaminopimelate aminotransferase (DAP-AT) (DAP-aminotransferase) (LL-DAP-aminotransferase) (EC 2.6.1.83)	Syncc9902_2031
+Q3AW47	rnhB Syncc9902_2028	316279	PF01351;	Ribonuclease HII (RNase HII) (EC 3.1.26.4)	Syncc9902_2028
+Q3AW53	tuf Syncc9902_2022	316279	PF00009;PF03144;PF03143;	Elongation factor Tu (EF-Tu) (EC 3.6.5.3)	Syncc9902_2022
+Q3AW56	rpsL rps12 Syncc9902_2019	316279	PF00164;	Small ribosomal subunit protein uS12 (30S ribosomal protein S12)	Syncc9902_2019
+Q3AW67	rplM rpl13 Syncc9902_1981	316279	PF00572;	Large ribosomal subunit protein uL13 (50S ribosomal protein L13)	Syncc9902_1981
+Q3AW68	truA Syncc9902_1980	316279	PF01416;	tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I)	Syncc9902_1980
+Q3AW70	rpoA Syncc9902_1978	316279	PF01000;PF03118;PF01193;	DNA-directed RNA polymerase subunit alpha (RNAP subunit alpha) (EC 2.7.7.6) (RNA polymerase subunit alpha) (Transcriptase subunit alpha)	Syncc9902_1978
+Q3AW74	adk Syncc9902_1974	316279	PF00406;	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	Syncc9902_1974
+Q3AW77	rpsE rps5 Syncc9902_1971	316279	PF00333;PF03719;	Small ribosomal subunit protein uS5 (30S ribosomal protein S5)	Syncc9902_1971
+Q3AWA8	hemF Syncc9902_1926	316279	PF01218;	Oxygen-dependent coproporphyrinogen-III oxidase (CPO) (Coprogen oxidase) (Coproporphyrinogenase) (EC 1.3.3.3)	Syncc9902_1926
+Q3AWE6	metK Syncc9902_1869	316279	PF02773;PF02772;PF00438;	S-adenosylmethionine synthase (AdoMet synthase) (EC 2.5.1.6) (MAT) (Methionine adenosyltransferase)	Syncc9902_1869
+Q3AWF3	mtnC Syncc9902_1846	316279	PF00702;	Enolase-phosphatase E1 (EC 3.1.3.77) (2,3-diketo-5-methylthio-1-phosphopentane phosphatase)	Syncc9902_1846
+Q3AWG6	aroQ Syncc9902_1833	316279	PF01220;	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	Syncc9902_1833
+Q3AWJ7	ndhB Syncc9902_1766	316279	PF00361;	NAD(P)H-quinone oxidoreductase subunit 2 (EC 7.1.1.-) (NAD(P)H dehydrogenase subunit 2) (NADH-plastoquinone oxidoreductase subunit 2) (NDH-1, subunit 2)	Syncc9902_1766
+Q3AWL7	petC Syncc9902_1734	316279	PF00355;PF25471;	Cytochrome b6-f complex iron-sulfur subunit (EC 7.1.1.6) (Plastohydroquinone:plastocyanin oxidoreductase iron-sulfur protein) (ISP) (RISP) (Rieske iron-sulfur protein)	Syncc9902_1734
+Q3AWM1	gmk Syncc9902_1730	316279	PF00625;	Guanylate kinase (EC 2.7.4.8) (GMP kinase)	Syncc9902_1730
+Q3AWM4	tsaD gcp Syncc9902_1727	316279	PF00814;	tRNA N6-adenosine threonylcarbamoyltransferase (EC 2.3.1.234) (N6-L-threonylcarbamoyladenine synthase) (t(6)A synthase) (t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD) (tRNA threonylcarbamoyladenosine biosynthesis protein TsaD)	Syncc9902_1727
+Q3AWM6	gltX Syncc9902_1719	316279	PF19269;PF00749;	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	Syncc9902_1719
+Q3AWP4	hemL Syncc9902_1701	316279	PF00202;	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	Syncc9902_1701
+Q3AWQ4	hemC Syncc9902_1680	316279	PF01379;PF03900;	Porphobilinogen deaminase (PBG) (EC 2.5.1.61) (Hydroxymethylbilane synthase) (HMBS) (Pre-uroporphyrinogen synthase)	Syncc9902_1680
+Q3AWR0	argB Syncc9902_1674	316279	PF00696;	Acetylglutamate kinase (EC 2.7.2.8) (N-acetyl-L-glutamate 5-phosphotransferase) (NAG kinase) (NAGK)	Syncc9902_1674
+Q3AWR7	purA Syncc9902_1667	316279	PF00709;	Adenylosuccinate synthetase (AMPSase) (AdSS) (EC 6.3.4.4) (IMP--aspartate ligase)	Syncc9902_1667
+Q3AWT4	chlL Syncc9902_1621	316279	PF00142;	Light-independent protochlorophyllide reductase iron-sulfur ATP-binding protein (DPOR subunit L) (LI-POR subunit L) (EC 1.3.7.7)	Syncc9902_1621
+Q3AWT5	chlB Syncc9902_1620	316279	PF00148;PF08369;	Light-independent protochlorophyllide reductase subunit B (DPOR subunit B) (LI-POR subunit B) (EC 1.3.7.7)	Syncc9902_1620
+Q3AWT6	chlN Syncc9902_1619	316279	PF00148;	Light-independent protochlorophyllide reductase subunit N (DPOR subunit N) (LI-POR subunit N) (EC 1.3.7.7)	Syncc9902_1619
+Q3AWU1	cbbL rbcL Syncc9902_1614	316279	PF00016;PF02788;	Ribulose bisphosphate carboxylase large chain (RuBisCO large subunit) (EC 4.1.1.39)	Syncc9902_1614
+Q3AWW5	rpsD rps4 Syncc9902_1590	316279	PF00163;PF01479;	Small ribosomal subunit protein uS4 (30S ribosomal protein S4)	Syncc9902_1590
+Q3AWX3	lepA Syncc9902_1582	316279	PF00679;PF00009;PF03144;PF06421;	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	Syncc9902_1582
+Q3AWY4	hisF Syncc9902_1571	316279	PF00977;	Imidazole glycerol phosphate synthase subunit HisF (EC 4.3.2.10) (IGP synthase cyclase subunit) (IGP synthase subunit HisF) (ImGP synthase subunit HisF) (IGPS subunit HisF)	Syncc9902_1571
+Q3AX63	trmFO Syncc9902_1425	316279	PF01134;	Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO (EC 2.1.1.74) (Folate-dependent tRNA (uracil-5-)-methyltransferase) (Folate-dependent tRNA(M-5-U54)-methyltransferase)	Syncc9902_1425
+Q3AX82	bioB Syncc9902_1394	316279	PF06968;PF04055;	Biotin synthase (EC 2.8.1.6)	Syncc9902_1394
+Q3AXB7	aroA Syncc9902_1326	316279	PF00275;	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	Syncc9902_1326
+Q3AXF3	rsmA ksgA Syncc9902_1283	316279	PF00398;	Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)	Syncc9902_1283
+Q3AXF4	ispE Syncc9902_1282	316279	PF08544;PF00288;	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	Syncc9902_1282
+Q3AXK3	Syncc9902_1229	316279	PF03320;	D-fructose 1,6-bisphosphatase class 2/sedoheptulose 1,7-bisphosphatase (FBPase class 2/SBPase) (EC 3.1.3.11) (EC 3.1.3.37)	Syncc9902_1229
+Q3AXK4	hemA Syncc9902_1228	316279	PF00745;PF05201;PF01488;	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	Syncc9902_1228
+Q3AXL0	ilvD Syncc9902_1222	316279	PF24877;PF00920;	Dihydroxy-acid dehydratase (DAD) (EC 4.2.1.9)	Syncc9902_1222
+Q3AXP3	ispG Syncc9902_1179	316279	PF04551;PF26540;	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin) (EC 1.17.7.1) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	Syncc9902_1179
+Q3AXV0	coaD Syncc9902_1113	316279	PF01467;	Phosphopantetheine adenylyltransferase (EC 2.7.7.3) (Dephospho-CoA pyrophosphorylase) (Pantetheine-phosphate adenylyltransferase) (PPAT)	Syncc9902_1113
+Q3AXV7	leuS Syncc9902_1106	316279	PF08264;PF00133;PF13603;PF09334;	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	Syncc9902_1106
+Q3AXV8	pgi Syncc9902_1105	316279	PF00342;	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	Syncc9902_1105
+Q3AXW8	murQ Syncc9902_1095	316279	PF22645;	N-acetylmuramic acid 6-phosphate etherase (MurNAc-6-P etherase) (EC 4.2.1.126) (N-acetylmuramic acid 6-phosphate hydrolase) (N-acetylmuramic acid 6-phosphate lyase)	Syncc9902_1095
+Q3AXX4	pstB Syncc9902_1089	316279	PF00005;	Phosphate import ATP-binding protein PstB (EC 7.3.2.1) (ABC phosphate transporter) (Phosphate-transporting ATPase)	Syncc9902_1089
+Q3AXZ4	dxs Syncc9902_1069	316279	PF13292;PF02779;PF02780;	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	Syncc9902_1069
+Q3AY04	clpP1 Syncc9902_1059	316279	PF00574;	ATP-dependent Clp protease proteolytic subunit 1 (EC 3.4.21.92) (Endopeptidase Clp 1)	Syncc9902_1059
+Q3AYC6	thrS Syncc9902_0935	316279	PF03129;PF00587;PF07973;	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	Syncc9902_0935
+Q3AYD4	proA Syncc9902_0927	316279	PF00171;	Gamma-glutamyl phosphate reductase (GPR) (EC 1.2.1.41) (Glutamate-5-semialdehyde dehydrogenase) (Glutamyl-gamma-semialdehyde dehydrogenase) (GSA dehydrogenase)	Syncc9902_0927
+Q3AYE2	glgB Syncc9902_0919	316279	PF00128;PF02806;PF02922;PF22019;	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	Syncc9902_0919
+Q3AYE3	hemE Syncc9902_0918	316279	PF01208;	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	Syncc9902_0918
+Q3AYG7	ndhL Syncc9902_0894	316279	PF10716;	NAD(P)H-quinone oxidoreductase subunit L (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit L) (NDH-1 subunit L) (NDH-L)	Syncc9902_0894
+Q3AYG9	pyrC Syncc9902_0892	316279	PF01979;	Dihydroorotase (DHOase) (EC 3.5.2.3)	Syncc9902_0892
+Q3AYI2	gloB Syncc9902_0879	316279	PF16123;PF00753;	Hydroxyacylglutathione hydrolase (EC 3.1.2.6) (Glyoxalase II) (Glx II)	Syncc9902_0879
+Q3AYN1	tpiA Syncc9902_0830	316279	PF00121;	Triosephosphate isomerase (TIM) (TPI) (EC 5.3.1.1) (Triose-phosphate isomerase)	Syncc9902_0830
+Q3AYN5	dapB Syncc9902_0826	316279	PF05173;PF01113;	4-hydroxy-tetrahydrodipicolinate reductase (HTPA reductase) (EC 1.17.1.8)	Syncc9902_0826
+Q3AYP0	apt Syncc9902_0821	316279	PF00156;	Adenine phosphoribosyltransferase (APRT) (EC 2.4.2.7)	Syncc9902_0821
+Q3AYR1	purQ Syncc9902_0800	316279	PF13507;	Phosphoribosylformylglycinamidine synthase subunit PurQ (FGAM synthase) (EC 6.3.5.3) (Formylglycinamide ribonucleotide amidotransferase subunit I) (FGAR amidotransferase I) (FGAR-AT I) (Glutaminase PurQ) (EC 3.5.1.2) (Phosphoribosylformylglycinamidine synthase subunit I)	Syncc9902_0800
+Q3AYR8	accD Syncc9902_0793	316279	PF01039;PF17848;	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta (ACCase subunit beta) (Acetyl-CoA carboxylase carboxyltransferase subunit beta) (EC 2.1.3.15)	Syncc9902_0793
+Q3AYS1	leuB Syncc9902_0788	316279	PF00180;	3-isopropylmalate dehydrogenase (EC 1.1.1.85) (3-IPM-DH) (Beta-IPM dehydrogenase) (IMDH)	Syncc9902_0788
+Q3AYS2	lpxD Syncc9902_0787	316279	PF00132;PF04613;	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.191)	Syncc9902_0787
+Q3AYS3	proB Syncc9902_0786	316279	PF00696;PF01472;	Glutamate 5-kinase (EC 2.7.2.11) (Gamma-glutamyl kinase) (GK)	Syncc9902_0786
+Q3AYX2	folD Syncc9902_0737	316279	PF00763;PF02882;	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	Syncc9902_0737
+Q3AYY2	leuA Syncc9902_0727	316279	PF22617;PF00682;PF08502;	2-isopropylmalate synthase (EC 2.3.3.13) (Alpha-IPM synthase) (Alpha-isopropylmalate synthase)	Syncc9902_0727
+Q3AYZ0	hisH Syncc9902_0719	316279	PF00117;	Imidazole glycerol phosphate synthase subunit HisH (EC 4.3.2.10) (IGP synthase glutaminase subunit) (EC 3.5.1.2) (IGP synthase subunit HisH) (ImGP synthase subunit HisH) (IGPS subunit HisH)	Syncc9902_0719
+Q3AYZ7	ruvC Syncc9902_0712	316279	PF02075;	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.21.10) (Holliday junction nuclease RuvC) (Holliday junction resolvase RuvC)	Syncc9902_0712
+Q3AZ20	dxr Syncc9902_0689	316279	PF08436;PF02670;PF13288;	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	Syncc9902_0689
+Q3AZ50	lipB Syncc9902_0659	316279	PF21948;	Octanoyltransferase (EC 2.3.1.181) (Lipoate-protein ligase B) (Lipoyl/octanoyl transferase) (Octanoyl-[acyl-carrier-protein]-protein N-octanoyltransferase)	Syncc9902_0659
+Q3AZA2	rpoC2 Syncc9902_0607	316279	PF04983;PF05000;PF04998;	DNA-directed RNA polymerase subunit beta' (RNAP subunit beta') (EC 2.7.7.6) (RNA polymerase subunit beta') (Transcriptase subunit beta')	Syncc9902_0607
+Q3AZA3	rpoC1 Syncc9902_0606	316279	PF04997;PF00623;PF04983;	DNA-directed RNA polymerase subunit gamma (RNAP subunit gamma) (EC 2.7.7.6) (RNA polymerase subunit gamma) (Transcriptase subunit gamma)	Syncc9902_0606
+Q3AZA4	rpoB Syncc9902_0605	316279	PF04563;PF04561;PF04565;PF10385;PF00562;PF04560;	DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta)	Syncc9902_0605
+Q3AZA8	rpiA Syncc9902_0601	316279	PF06026;	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	Syncc9902_0601
+Q3AZD7	plsY Syncc9902_0572	316279	PF02660;	Glycerol-3-phosphate acyltransferase (Acyl-PO4 G3P acyltransferase) (Acyl-phosphate--glycerol-3-phosphate acyltransferase) (G3P acyltransferase) (GPAT) (EC 2.3.1.275) (Lysophosphatidic acid synthase) (LPA synthase)	Syncc9902_0572
+Q3AZD9	pyrF Syncc9902_0570	316279	PF00215;	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (OMP decarboxylase) (OMPDCase) (OMPdecase)	Syncc9902_0570
+Q3AZE2	tyrS Syncc9902_0567	316279	PF22421;PF00579;	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	Syncc9902_0567
+Q3AZE8	pepA Syncc9902_0561	316279	PF00883;PF02789;	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	Syncc9902_0561
+Q3AZH7	rnz Syncc9902_0532	316279	PF23023;PF12706;	Ribonuclease Z (RNase Z) (EC 3.1.26.11) (tRNA 3 endonuclease) (tRNase Z)	Syncc9902_0532
+Q3AZH8	psbV Syncc9902_0531	316279	PF14495;	Photosystem II extrinsic protein V (PsbV) (Cytochrome c-550) (Cytochrome c550) (Low-potential cytochrome c)	Syncc9902_0531
+Q3AZI5	murD Syncc9902_0524	316279	PF02875;PF08245;PF21799;	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	Syncc9902_0524
+Q3AZK3	groEL1 groL1 Syncc9902_0506	316279	PF00118;	Chaperonin GroEL 1 (EC 5.6.1.7) (60 kDa chaperonin 1) (Chaperonin-60 1) (Cpn60 1)	Syncc9902_0506
+Q3AZK5	atpD atpB Syncc9902_0504	316279	PF00006;PF02874;PF22919;	ATP synthase subunit beta (EC 7.1.2.2) (ATP synthase F1 sector subunit beta) (F-ATPase subunit beta)	Syncc9902_0504
+Q3AZM1	atpA Syncc9902_0488	316279	PF00006;PF00306;PF02874;	ATP synthase subunit alpha (EC 7.1.2.2) (ATP synthase F1 sector subunit alpha) (F-ATPase subunit alpha)	Syncc9902_0488
+Q3AZM4	atpF2 atpG Syncc9902_0485	316279	PF00430;	ATP synthase subunit b' (ATP synthase F(0) sector subunit b') (ATPase subunit II) (F-type ATPase subunit b') (F-ATPase subunit b')	Syncc9902_0485
+Q3AZM5	atpE atpH Syncc9902_0484	316279	PF00137;	ATP synthase subunit c (ATP synthase F(0) sector subunit c) (F-type ATPase subunit c) (F-ATPase subunit c) (Lipid-binding protein)	Syncc9902_0484
+Q3AZN8	queF Syncc9902_0471	316279	PF14489;	NADPH-dependent 7-cyano-7-deazaguanine reductase (EC 1.7.1.13) (7-cyano-7-carbaguanine reductase) (NADPH-dependent nitrile oxidoreductase) (PreQ(0) reductase)	Syncc9902_0471
+Q3AZX9	anmK Syncc9902_0378	316279	PF03702;	Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.170) (AnhMurNAc kinase)	Syncc9902_0378
+Q3AZZ7	uppP Syncc9902_0358	316279	PF02673;	Undecaprenyl-diphosphatase (EC 3.6.1.27) (Bacitracin resistance protein) (Undecaprenyl pyrophosphate phosphatase)	Syncc9902_0358
+Q3B002	rimO Syncc9902_0353	316279	PF04055;PF18693;PF00919;	Ribosomal protein uS12 methylthiotransferase RimO (uS12 MTTase) (uS12 methylthiotransferase) (EC 2.8.4.4) (Ribosomal protein uS12 (aspartate-C(3))-methylthiotransferase) (Ribosome maturation factor RimO)	Syncc9902_0353
+Q3B009	aroK Syncc9902_0346	316279	PF01202;	Shikimate kinase (SK) (EC 2.7.1.71)	Syncc9902_0346
+Q3B027	ndhO Syncc9902_0328	316279	PF11910;	NAD(P)H-quinone oxidoreductase subunit O (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit O) (NDH-1 subunit O) (NDH-O)	Syncc9902_0328
+Q3B038	psbD1 Syncc9902_0317; psbD2 Syncc9902_0668	316279	PF00124;	Photosystem II D2 protein (PSII D2 protein) (EC 1.10.3.9) (Photosystem Q(A) protein)	Syncc9902_0317; Syncc9902_0668
+Q3B063	ndhD Syncc9902_0292	316279	PF00361;	NAD(P)H-quinone oxidoreductase chain 4 (EC 7.1.1.-) (NAD(P)H dehydrogenase I, chain 4) (NDH-1, chain 4)	Syncc9902_0292
+Q3B074	ndhI Syncc9902_0281	316279	PF13187;	NAD(P)H-quinone oxidoreductase subunit I (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit I) (NDH-1 subunit I) (NDH-I)	Syncc9902_0281
+Q3B075	ndhA Syncc9902_0280	316279	PF00146;	NAD(P)H-quinone oxidoreductase subunit 1 (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit 1) (NDH-1 subunit 1) (NDH-A)	Syncc9902_0280
+Q3B080	ispH Syncc9902_0275	316279	PF02401;	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (HMBPP reductase) (EC 1.17.7.4)	Syncc9902_0275
+Q3B083	purH Syncc9902_0272	316279	PF01808;PF02142;	Bifunctional purine biosynthesis protein PurH [Includes: Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3) (AICAR transformylase); IMP cyclohydrolase (EC 3.5.4.10) (ATIC) (IMP synthase) (Inosinicase)]	Syncc9902_0272
+Q3B088	tgt Syncc9902_0267	316279	PF01702;	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	Syncc9902_0267
+Q3B0C1	ndhJ Syncc9902_0232	316279	PF00329;	NAD(P)H-quinone oxidoreductase subunit J (EC 7.1.1.-) (NAD(P)H dehydrogenase subunit J) (NADH-plastoquinone oxidoreductase subunit J) (NDH-1 subunit J) (NDH-J)	Syncc9902_0232
+Q3B0C2	ndhK Syncc9902_0231	316279	PF01058;	NAD(P)H-quinone oxidoreductase subunit K (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit K) (NDH-1 subunit K) (NDH-K)	Syncc9902_0231
+Q3B0C3	ndhC Syncc9902_0230	316279	PF00507;	NAD(P)H-quinone oxidoreductase subunit 3 (EC 7.1.1.-) (NAD(P)H dehydrogenase subunit 3) (NADH-plastoquinone oxidoreductase subunit 3) (NDH-1 subunit 3) (NDH-C)	Syncc9902_0230
+Q3B0C6	psbE Syncc9902_0227	316279	PF00283;PF00284;	Cytochrome b559 subunit alpha (PSII reaction center subunit V)	Syncc9902_0227
+Q3B0C7	psbF Syncc9902_0226	316279	PF00283;	Cytochrome b559 subunit beta (PSII reaction center subunit VI)	Syncc9902_0226
+Q3B0I2	psaC Syncc9902_0171	316279	PF12838;	Photosystem I iron-sulfur center (EC 1.97.1.12) (9 kDa polypeptide) (PSI-C) (Photosystem I subunit VII) (PsaC)	Syncc9902_0171
+Q3B0I6	thiC Syncc9902_0167	316279	PF01964;	Phosphomethylpyrimidine synthase (EC 4.1.99.17) (Hydroxymethylpyrimidine phosphate synthase) (HMP-P synthase) (HMP-phosphate synthase) (HMPP synthase) (Thiamine biosynthesis protein ThiC)	Syncc9902_0167
+Q3B0J1	ruvB Syncc9902_0162	316279	PF17864;PF05496;PF05491;	Holliday junction branch migration complex subunit RuvB (EC 3.6.4.-)	Syncc9902_0162
+Q3B0J9	lysS Syncc9902_0154	316279	PF00152;PF01336;	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	Syncc9902_0154
+Q3B0K7	ahcY Syncc9902_0146	316279	PF05221;PF00670;	Adenosylhomocysteinase (EC 3.13.2.1) (S-adenosyl-L-homocysteine hydrolase) (AdoHcyase)	Syncc9902_0146
+Q3B0L7	fluC2 crcB2 Syncc9902_0136	316279	PF02537;	Fluoride-specific ion channel FluC 2	Syncc9902_0136
+Q3B0M1	miaA Syncc9902_0132	316279	PF01715;	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	Syncc9902_0132
+Q3B0N0	secA Syncc9902_0123	316279	PF21090;PF07517;PF01043;PF07516;	Protein translocase subunit SecA (EC 7.4.2.8)	Syncc9902_0123
+Q3B0T8	dapA Syncc9902_0065	316279	PF00701;	4-hydroxy-tetrahydrodipicolinate synthase (HTPA synthase) (EC 4.3.3.7)	Syncc9902_0065
+Q3B0U0	tig Syncc9902_0063	316279	PF00254;PF05698;PF05697;	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	Syncc9902_0063
+Q3B0U1	clpP2 Syncc9902_0062	316279	PF00574;	ATP-dependent Clp protease proteolytic subunit 2 (EC 3.4.21.92) (Endopeptidase Clp 2)	Syncc9902_0062
+Q3B0U2	clpX Syncc9902_0061	316279	PF07724;PF10431;PF06689;	ATP-dependent Clp protease ATP-binding subunit ClpX	Syncc9902_0061
+Q3B0V2	thiG Syncc9902_0051	316279	PF05690;	Thiazole synthase (EC 2.8.1.10)	Syncc9902_0051
+Q3B0W1	guaA Syncc9902_0042	316279	PF00117;PF00958;	GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2) (GMP synthetase) (Glutamine amidotransferase)	Syncc9902_0042
+Q3B0X8	murC Syncc9902_0025	316279	PF01225;PF02875;PF08245;	UDP-N-acetylmuramate--L-alanine ligase (EC 6.3.2.8) (UDP-N-acetylmuramoyl-L-alanine synthetase)	Syncc9902_0025
+Q3B100	purL Syncc9902_0003	316279	PF00586;PF02769;PF18072;	Phosphoribosylformylglycinamidine synthase subunit PurL (FGAM synthase) (EC 6.3.5.3) (Formylglycinamide ribonucleotide amidotransferase subunit II) (FGAR amidotransferase II) (FGAR-AT II) (Glutamine amidotransferase PurL) (Phosphoribosylformylglycinamidine synthase subunit II)	Syncc9902_0003
+Q3AUG8	rplI rpl9 Syncc9902_2193	316279	PF03948;PF01281;	Large ribosomal subunit protein bL9 (50S ribosomal protein L9)	Syncc9902_2193
+Q3AUG9	mnmG gidA Syncc9902_2197	316279	PF01134;PF21680;PF13932;	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (Glucose-inhibited division protein A)	Syncc9902_2197
+Q3AUJ5	rplK rpl11 Syncc9902_2156	316279	PF00298;PF03946;	Large ribosomal subunit protein uL11 (50S ribosomal protein L11)	Syncc9902_2156
+Q3AUJ6	rplA rpl1 Syncc9902_2155	316279	PF00687;	Large ribosomal subunit protein uL1 (50S ribosomal protein L1)	Syncc9902_2155
+Q3AUJ7	rplJ rpl10 Syncc9902_2154	316279	PF00466;	Large ribosomal subunit protein uL10 (50S ribosomal protein L10)	Syncc9902_2154
+Q3AUJ8	rplL rpl12 Syncc9902_2153	316279	PF00542;PF16320;	Large ribosomal subunit protein bL12 (50S ribosomal protein L7/L12)	Syncc9902_2153
+Q3AUL9	gcvH Syncc9902_2189	316279	PF01597;	Glycine cleavage system H protein	Syncc9902_2189
+Q3AUM7	ybeY Syncc9902_2126	316279	PF02130;	Endoribonuclease YbeY (EC 3.1.-.-)	Syncc9902_2126
+Q3AUN6	Syncc9902_2001	316279	PF13640;	PKHD-type hydroxylase Syncc9902_2001 (EC 1.14.11.-)	Syncc9902_2001
+Q3AUQ6	psbH Syncc9902_2081	316279	PF00737;	Photosystem II reaction center protein H (PSII-H)	Syncc9902_2081
+Q3AUQ9	psbN Syncc9902_2082	316279	PF02468;	Protein PsbN	Syncc9902_2082
+Q3AUR5	clpS Syncc9902_2032	316279	PF02617;	ATP-dependent Clp protease adapter protein ClpS	Syncc9902_2032
+Q3AUU4	pebB Syncc9902_1907	316279	PF05996;	Phycoerythrobilin:ferredoxin oxidoreductase (EC 1.3.7.3)	Syncc9902_1907
+Q3AUU5	pebA Syncc9902_1906	316279	PF05996;	15,16-dihydrobiliverdin:ferredoxin oxidoreductase (EC 1.3.7.2)	Syncc9902_1906
+Q3AUW0	rplB rpl2 Syncc9902_1958	316279	PF03947;PF00181;	Large ribosomal subunit protein uL2 (50S ribosomal protein L2)	Syncc9902_1958
+Q3AUW1	rplW rpl23 Syncc9902_1957	316279	PF00276;	Large ribosomal subunit protein uL23 (50S ribosomal protein L23)	Syncc9902_1957
+Q3AUW3	rplC rpl3 Syncc9902_1955	316279	PF00297;	Large ribosomal subunit protein uL3 (50S ribosomal protein L3)	Syncc9902_1955
+Q3AUW5	ndhN Syncc9902_1953	316279	PF11909;	NAD(P)H-quinone oxidoreductase subunit N (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit N) (NDH-1 subunit N) (NDH-N)	Syncc9902_1953
+Q3AUW7	rplV rpl22 Syncc9902_1960	316279	PF00237;	Large ribosomal subunit protein uL22 (50S ribosomal protein L22)	Syncc9902_1960
+Q3AUW8	rpsS rps19 Syncc9902_1959	316279	PF00203;	Small ribosomal subunit protein uS19 (30S ribosomal protein S19)	Syncc9902_1959
+Q3AUW9	rplP rpl16 Syncc9902_1962	316279	PF00252;	Large ribosomal subunit protein uL16 (50S ribosomal protein L16)	Syncc9902_1962
+Q3AUY3	psbM Syncc9902_1862	316279	PF05151;	Photosystem II reaction center protein M (PSII-M)	Syncc9902_1862
+Q3AV04	ctaB Syncc9902_1752	316279	PF01040;	Protoheme IX farnesyltransferase (EC 2.5.1.141) (Heme B farnesyltransferase) (Heme O synthase)	Syncc9902_1752
+Q3AV13	Syncc9902_1819	316279	PF24827;PF04952;	Probable aspartoacylase (EC 3.5.1.15)	Syncc9902_1819
+Q3AV41	rnpA Syncc9902_1785	316279	PF00825;	Ribonuclease P protein component (RNase P protein) (RNaseP protein) (EC 3.1.26.5) (Protein C5)	Syncc9902_1785
+Q3AV42	rpmH rpl34 Syncc9902_1784	316279	PF00468;	Large ribosomal subunit protein bL34 (50S ribosomal protein L34)	Syncc9902_1784
+Q3AV45	rpsN rps14 Syncc9902_1793	316279	PF00253;	Small ribosomal subunit protein uS14 (30S ribosomal protein S14)	Syncc9902_1793
+Q3AV87	trpC Syncc9902_1529	316279	PF00218;	Indole-3-glycerol phosphate synthase (IGPS) (EC 4.1.1.48)	Syncc9902_1529
+Q3AV97	frr Syncc9902_1649	316279	PF01765;	Ribosome-recycling factor (RRF) (Ribosome-releasing factor)	Syncc9902_1649
+Q3AVJ4	rpsR rps18 Syncc9902_1137	316279	PF01084;	Small ribosomal subunit protein bS18 (30S ribosomal protein S18)	Syncc9902_1137
+Q3AVJ5	rpmG rpl33 Syncc9902_1136	316279	PF00471;	Large ribosomal subunit protein bL33 (50S ribosomal protein L33)	Syncc9902_1136
+Q3AVK0	ruvA Syncc9902_1298	316279	PF14520;PF07499;PF01330;	Holliday junction branch migration complex subunit RuvA	Syncc9902_1298
+Q3AVK1	rpsO rps15 Syncc9902_1299	316279	PF00312;	Small ribosomal subunit protein uS15 (30S ribosomal protein S15)	Syncc9902_1299
+Q3AVK4	gatA Syncc9902_1302	316279	PF01425;	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.7)	Syncc9902_1302
+Q3AVM1	rpsF rps6 Syncc9902_2306	316279	PF01250;	Small ribosomal subunit protein bS6 (30S ribosomal protein S6)	Syncc9902_2306
+Q3AVR2	ureB Syncc9902_2256	316279	PF00699;	Urease subunit beta (EC 3.5.1.5) (Urea amidohydrolase subunit beta)	Syncc9902_2256
+Q3AVR3	ureA Syncc9902_2255	316279	PF00547;	Urease subunit gamma (EC 3.5.1.5) (Urea amidohydrolase subunit gamma)	Syncc9902_2255
+Q3AVR4	ureD Syncc9902_2254	316279	PF01774;	Urease accessory protein UreD	Syncc9902_2254
+Q3AVR7	ureG Syncc9902_2251	316279	PF02492;	Urease accessory protein UreG	Syncc9902_2251
+Q3AVT0	gcvT Syncc9902_2232	316279	PF01571;PF08669;	Aminomethyltransferase (EC 2.1.2.10) (Glycine cleavage system T protein)	Syncc9902_2232
+Q3AVV7	gatB Syncc9902_2169	316279	PF02934;PF02637;	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	Syncc9902_2169
+Q3AVY5	argS Syncc9902_2134	316279	PF03485;PF05746;PF00750;	Arginine--tRNA ligase (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)	Syncc9902_2134
+Q3AVZ5	Syncc9902_2116	316279	PF13279;	1,4-dihydroxy-2-naphthoyl-CoA hydrolase (DHNA-CoA hydrolase) (EC 3.1.2.28) (DHNA-CoA thioesterase)	Syncc9902_2116
+Q3AW00	rsmH mraW Syncc9902_2111	316279	PF01795;	Ribosomal RNA small subunit methyltransferase H (EC 2.1.1.199) (16S rRNA m(4)C1402 methyltransferase) (rRNA (cytosine-N(4)-)-methyltransferase RsmH)	Syncc9902_2111
+Q3AW25	psbI Syncc9902_2084	316279	PF02532;	Photosystem II reaction center protein I (PSII-I) (PSII 4.4 kDa protein)	Syncc9902_2084
+Q3AW42	gatC Syncc9902_2057	316279	PF02686;	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C (Asp/Glu-ADT subunit C) (EC 6.3.5.-)	Syncc9902_2057
+Q3AW52	rpsJ rps10 Syncc9902_2023	316279	PF00338;	Small ribosomal subunit protein uS10 (30S ribosomal protein S10)	Syncc9902_2023
+Q3AW54	fusA Syncc9902_2021	316279	PF00679;PF14492;PF03764;PF00009;PF03144;	Elongation factor G (EF-G)	Syncc9902_2021
+Q3AW55	rpsG rps7 Syncc9902_2020	316279	PF00177;	Small ribosomal subunit protein uS7 (30S ribosomal protein S7)	Syncc9902_2020
+Q3AW64	prfA Syncc9902_1984	316279	PF03462;PF00472;	Peptide chain release factor 1 (RF-1)	Syncc9902_1984
+Q3AW65	rpmE rpl31 Syncc9902_1983	316279	PF01197;	Large ribosomal subunit protein bL31 (50S ribosomal protein L31)	Syncc9902_1983
+Q3AW66	rpsI rps9 Syncc9902_1982	316279	PF00380;	Small ribosomal subunit protein uS9 (30S ribosomal protein S9)	Syncc9902_1982
+Q3AW69	rplQ rpl17 Syncc9902_1979	316279	PF01196;	Large ribosomal subunit protein bL17 (50S ribosomal protein L17)	Syncc9902_1979
+Q3AW71	rpsK rps11 Syncc9902_1977	316279	PF00411;	Small ribosomal subunit protein uS11 (30S ribosomal protein S11)	Syncc9902_1977
+Q3AW72	rpsM rps13 Syncc9902_1976	316279	PF00416;	Small ribosomal subunit protein uS13 (30S ribosomal protein S13)	Syncc9902_1976
+Q3AW73	rpmJ Syncc9902_1975	316279	PF00444;	Large ribosomal subunit protein bL36 (50S ribosomal protein L36)	Syncc9902_1975
+Q3AW76	rplO Syncc9902_1972	316279	PF00828;	Large ribosomal subunit protein uL15 (50S ribosomal protein L15)	Syncc9902_1972
+Q3AW78	rplR rpl18 Syncc9902_1970	316279	PF00861;	Large ribosomal subunit protein uL18 (50S ribosomal protein L18)	Syncc9902_1970
+Q3AW79	rplF rpl6 Syncc9902_1969	316279	PF00347;	Large ribosomal subunit protein uL6 (50S ribosomal protein L6)	Syncc9902_1969
+Q3AW80	rpsH rps8 Syncc9902_1968	316279	PF00410;	Small ribosomal subunit protein uS8 (30S ribosomal protein S8)	Syncc9902_1968
+Q3AW81	rplE rpl5 Syncc9902_1967	316279	PF00281;PF00673;	Large ribosomal subunit protein uL5 (50S ribosomal protein L5)	Syncc9902_1967
+Q3AW82	rplX rpl24 Syncc9902_1966	316279	PF00467;PF17136;	Large ribosomal subunit protein uL24 (50S ribosomal protein L24)	Syncc9902_1966
+Q3AW83	rplN rpl14 Syncc9902_1965	316279	PF00238;	Large ribosomal subunit protein uL14 (50S ribosomal protein L14)	Syncc9902_1965
+Q3AW84	rpsQ rps17 Syncc9902_1964	316279	PF00366;	Small ribosomal subunit protein uS17 (30S ribosomal protein S17)	Syncc9902_1964
+Q3AW85	rpmC rpl29 Syncc9902_1963	316279	PF00831;	Large ribosomal subunit protein uL29 (50S ribosomal protein L29)	Syncc9902_1963
+Q3AWE9	nrdR Syncc9902_1866	316279	PF03477;PF22811;	Transcriptional repressor NrdR	Syncc9902_1866
+Q3AWF0	psbT Syncc9902_1865	316279	PF01405;	Photosystem II reaction center protein T (PSII-T)	Syncc9902_1865
+Q3AWF1	petD Syncc9902_1848	316279	PF00032;	Cytochrome b6-f complex subunit 4 (17 kDa polypeptide)	Syncc9902_1848
+Q3AWF5	mtnA Syncc9902_1844	316279	PF01008;	Methylthioribose-1-phosphate isomerase (M1Pi) (MTR-1-P isomerase) (EC 5.3.1.23) (S-methyl-5-thioribose-1-phosphate isomerase)	Syncc9902_1844
+Q3AWF7	psaE Syncc9902_1842	316279	PF02427;	Photosystem I reaction center subunit IV	Syncc9902_1842
+Q3AWK9	ispD Syncc9902_1742	316279	PF01128;	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	Syncc9902_1742
+Q3AWL5	lgt Syncc9902_1736	316279	PF01790;	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase (EC 2.5.1.145)	Syncc9902_1736
+Q3AWL6	petA Syncc9902_1735	316279	PF01333;PF16639;	Cytochrome f	Syncc9902_1735
+Q3AWM2	psaJ Syncc9902_1729	316279	PF01701;	Photosystem I reaction center subunit IX	Syncc9902_1729
+Q3AWM9	rplS rpl19 Syncc9902_1716	316279	PF01245;	Large ribosomal subunit protein bL19 (50S ribosomal protein L19)	Syncc9902_1716
+Q3AWR9	proS Syncc9902_1665	316279	PF03129;PF00587;	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	Syncc9902_1665
+Q3AWT0	psaM Syncc9902_1625	316279	PF07465;	Photosystem I reaction center subunit XII (PSI-M)	Syncc9902_1625
+Q3AWW1	Syncc9902_1594	316279	PF02545;	Nucleoside triphosphate pyrophosphatase (EC 3.6.1.9) (Nucleotide pyrophosphatase) (Nucleotide PPase)	Syncc9902_1594
+Q3AWX1	mqo Syncc9902_1584	316279	PF06039;	Probable malate:quinone oxidoreductase (EC 1.1.5.4) (MQO) (Malate dehydrogenase [quinone])	Syncc9902_1584
+Q3AWZ4	glyQ Syncc9902_1561	316279	PF02091;	Glycine--tRNA ligase alpha subunit (EC 6.1.1.14) (Glycyl-tRNA synthetase alpha subunit) (GlyRS)	Syncc9902_1561
+Q3AX02	rpsP rps16 Syncc9902_1516	316279	PF00886;	Small ribosomal subunit protein bS16 (30S ribosomal protein S16)	Syncc9902_1516
+Q3AX77	recR Syncc9902_1399	316279	PF21175;PF21176;PF02132;PF13662;	Recombination protein RecR	Syncc9902_1399
+Q3AX81	trhO Syncc9902_1395	316279	PF00581;PF17773;	tRNA uridine(34) hydroxylase (EC 1.14.-.-) (tRNA hydroxylation protein O)	Syncc9902_1395
+Q3AXB9	comB Syncc9902_1324	316279	PF04029;	Probable 2-phosphosulfolactate phosphatase (EC 3.1.3.71)	Syncc9902_1324
+Q3AXD5	trpD Syncc9902_1308	316279	PF02885;PF00591;	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)	Syncc9902_1308
+Q3AXE9	rlmH Syncc9902_1287	316279	PF02590;	Ribosomal RNA large subunit methyltransferase H (EC 2.1.1.177) (23S rRNA (pseudouridine1915-N3)-methyltransferase) (23S rRNA m3Psi1915 methyltransferase) (rRNA (pseudouridine-N3-)-methyltransferase RlmH)	Syncc9902_1287
+Q3AXG3	psb28 Syncc9902_1273	316279	PF03912;	Photosystem II reaction center Psb28 protein (Photosystem II 13 kDa protein) (Photosystem II reaction center W protein)	Syncc9902_1273
+Q3AXI3	pcyA Syncc9902_1253	316279	PF05996;	Phycocyanobilin:ferredoxin oxidoreductase (EC 1.3.7.5)	Syncc9902_1253
+Q3AXI9	rpsB rps2 Syncc9902_1247	316279	PF00318;	Small ribosomal subunit protein uS2 (30S ribosomal protein S2)	Syncc9902_1247
+Q3AXJ0	tsf Syncc9902_1246	316279	PF00889;	Elongation factor Ts (EF-Ts)	Syncc9902_1246
+Q3AXK1	ccsA Syncc9902_1231	316279	PF01578;	Cytochrome c biogenesis protein CcsA	Syncc9902_1231
+Q3AXM7	hslO Syncc9902_1195	316279	PF01430;	33 kDa chaperonin (Heat shock protein 33 homolog) (HSP33)	Syncc9902_1195
+Q3AXQ4	fmt Syncc9902_1168	316279	PF02911;PF00551;	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	Syncc9902_1168
+Q3AXR9	rpmF rpl32 Syncc9902_1153	316279	PF01783;	Large ribosomal subunit protein bL32 (50S ribosomal protein L32)	Syncc9902_1153
+Q3AXS7	pxcA Syncc9902_1145	316279	PF03040;	Proton extrusion protein PxcA	Syncc9902_1145
+Q3AXU8	uvrC Syncc9902_1115	316279	PF01541;PF14520;PF02151;PF22920;PF08459;	UvrABC system protein C (Protein UvrC) (Excinuclease ABC subunit C)	Syncc9902_1115
+Q3AXX8	hisZ Syncc9902_1085	316279	PF13393;	ATP phosphoribosyltransferase regulatory subunit	Syncc9902_1085
+Q3AXY2	rpmB rpl28 Syncc9902_1081	316279	PF00830;	Large ribosomal subunit protein bL28 (50S ribosomal protein L28)	Syncc9902_1081
+Q3AY05	thf1 Syncc9902_1058	316279	PF11264;	Protein Thf1	Syncc9902_1058
+Q3AY07	petN Syncc9902_1056	316279	PF03742;	Cytochrome b6-f complex subunit 8 (Cytochrome b6-f complex subunit PetN) (Cytochrome b6-f complex subunit VIII)	Syncc9902_1056
+Q3AY98	rpsU rps21 Syncc9902_0963	316279	PF01165;	Small ribosomal subunit protein bS21 (30S ribosomal protein S21)	Syncc9902_0963
+Q3AYC9	thrB Syncc9902_0932	316279	PF08544;PF00288;	Homoserine kinase (HK) (HSK) (EC 2.7.1.39)	Syncc9902_0932
+Q3AYG5	trpA Syncc9902_0896	316279	PF00290;	Tryptophan synthase alpha chain (EC 4.2.1.20)	Syncc9902_0896
+Q3AYH5	dnaA Syncc9902_0886	316279	PF00308;PF08299;PF11638;	Chromosomal replication initiator protein DnaA	Syncc9902_0886
+Q3AYI1	hisG Syncc9902_0880	316279	PF01634;	ATP phosphoribosyltransferase (ATP-PRT) (ATP-PRTase) (EC 2.4.2.17)	Syncc9902_0880
+Q3AYS6	Syncc9902_0783	316279	PF03652;	Putative pre-16S rRNA nuclease (EC 3.1.-.-)	Syncc9902_0783
+Q3AYT2	hisA Syncc9902_0777	316279	PF00977;	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase (EC 5.3.1.16) (Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase)	Syncc9902_0777
+Q3AYV8	sasA Syncc9902_0751	316279	PF02518;PF00512;PF07689;	Adaptive-response sensory kinase SasA (EC 2.7.13.3) (Sensor histidine kinase SasA)	Syncc9902_0751
+Q3AYW4	acyP Syncc9902_0745	316279	PF00708;	Acylphosphatase (EC 3.6.1.7) (Acylphosphate phosphohydrolase)	Syncc9902_0745
+Q3AZ17	cysS Syncc9902_0692	316279	PF09190;PF01406;	Cysteine--tRNA ligase (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)	Syncc9902_0692
+Q3AZ35	petM Syncc9902_0674	316279	PF08041;	Cytochrome b6-f complex subunit 7 (Cytochrome b6-f complex subunit PetM) (Cytochrome b6-f complex subunit VII)	Syncc9902_0674
+Q3AZ40	ycf4 Syncc9902_0669	316279	PF02392;	Photosystem I assembly protein Ycf4	Syncc9902_0669
+Q3AZ46	queA Syncc9902_0663	316279	PF02547;	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 2.4.99.17) (Queuosine biosynthesis protein QueA)	Syncc9902_0663
+Q3AZ61	sepF Syncc9902_0648	316279	PF04472;	Cell division protein SepF	Syncc9902_0648
+Q3AZ65	der engA Syncc9902_0644	316279	PF14714;PF01926;	GTPase Der (GTP-binding protein EngA)	Syncc9902_0644
+Q3AZ92	rsmG Syncc9902_0617	316279	PF02527;	Ribosomal RNA small subunit methyltransferase G (EC 2.1.1.-) (16S rRNA 7-methylguanosine methyltransferase) (16S rRNA m7G methyltransferase)	Syncc9902_0617
+Q3AZA6	rpsT rps20 Syncc9902_0603	316279	PF01649;	Small ribosomal subunit protein bS20 (30S ribosomal protein S20)	Syncc9902_0603
+Q3AZB4	rimP Syncc9902_0595	316279	PF02576;	Ribosome maturation factor RimP	Syncc9902_0595
+Q3AZB7	infB Syncc9902_0592	316279	PF22042;PF00009;PF11987;PF04760;	Translation initiation factor IF-2	Syncc9902_0592
+Q3AZF3	fabZ Syncc9902_0556	316279	PF07977;	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	Syncc9902_0556
+Q3AZF6	purC Syncc9902_0553	316279	PF01259;	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6) (SAICAR synthetase)	Syncc9902_0553
+Q3AZG3	rplU rpl21 Syncc9902_0546	316279	PF00829;	Large ribosomal subunit protein bL21 (50S ribosomal protein L21)	Syncc9902_0546
+Q3AZG4	rpmA rpl27 Syncc9902_0545	316279	PF01016;	Large ribosomal subunit protein bL27 (50S ribosomal protein L27)	Syncc9902_0545
+Q3AZJ0	rpoZ Syncc9902_0519	316279	PF01192;	DNA-directed RNA polymerase subunit omega (RNAP omega subunit) (EC 2.7.7.6) (RNA polymerase omega subunit) (Transcriptase subunit omega)	Syncc9902_0519
+Q3AZK4	groES groS Syncc9902_0505	316279	PF00166;	Co-chaperonin GroES (10 kDa chaperonin) (Chaperonin-10) (Cpn10)	Syncc9902_0505
+Q3AZK6	atpC Syncc9902_0503	316279	PF00401;PF02823;	ATP synthase epsilon chain (ATP synthase F1 sector epsilon subunit) (F-ATPase epsilon subunit)	Syncc9902_0503
+Q3AZM0	atpG atpC Syncc9902_0489	316279	PF00231;	ATP synthase gamma chain (ATP synthase F1 sector gamma subunit) (F-ATPase gamma subunit)	Syncc9902_0489
+Q3AZM2	atpH atpD Syncc9902_0487	316279	PF00213;	ATP synthase subunit delta (ATP synthase F(1) sector subunit delta) (F-type ATPase subunit delta) (F-ATPase subunit delta)	Syncc9902_0487
+Q3AZM3	atpF Syncc9902_0486	316279	PF00430;	ATP synthase subunit b (ATP synthase F(0) sector subunit b) (ATPase subunit I) (F-type ATPase subunit b) (F-ATPase subunit b)	Syncc9902_0486
+Q3AZM6	atpB atpI Syncc9902_0483	316279	PF00119;	ATP synthase subunit a (ATP synthase F0 sector subunit a) (F-ATPase subunit 6)	Syncc9902_0483
+Q3AZN7	ccsB ccs1 Syncc9902_0472	316279	PF05140;	Cytochrome c biogenesis protein CcsB	Syncc9902_0472
+Q3AZU8	def Syncc9902_0409	316279	PF01327;	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	Syncc9902_0409
+Q3AZZ0	xseA Syncc9902_0367	316279	PF02601;PF13742;	Exodeoxyribonuclease 7 large subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII large subunit) (Exonuclease VII large subunit)	Syncc9902_0367
+Q3AZZ9	psbU Syncc9902_0356	316279	PF06514;	Photosystem II extrinsic protein U (PSII-U) (PsbU) (Photosystem II 12 kDa extrinsic protein) (PS II complex 12 kDa extrinsic protein)	Syncc9902_0356
+Q3B014	rbfA Syncc9902_0341	316279	PF02033;	Ribosome-binding factor A	Syncc9902_0341
+Q3B043	tmk Syncc9902_0312	316279	PF02223;	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	Syncc9902_0312
+Q3B045	ycf3 Syncc9902_0310	316279	PF13424;	Photosystem I assembly protein Ycf3	Syncc9902_0310
+Q3B058	ndhM Syncc9902_0297	316279	PF10664;	NAD(P)H-quinone oxidoreductase subunit M (EC 7.1.1.-) (NAD(P)H dehydrogenase I subunit M) (NDH-1 subunit M) (NDH-M)	Syncc9902_0297
+Q3B095	pyrE Syncc9902_0260	316279		Orotate phosphoribosyltransferase (OPRT) (OPRTase) (EC 2.4.2.10)	Syncc9902_0260
+Q3B0A6	hisB Syncc9902_0247	316279	PF00475;	Imidazoleglycerol-phosphate dehydratase (IGPD) (EC 4.2.1.19)	Syncc9902_0247
+Q3B0C5	ycf48 Syncc9902_0228	316279	PF14870;	Photosystem II assembly lipoprotein Ycf48	Syncc9902_0228
+Q3B0C8	psbL Syncc9902_0225	316279	PF02419;	Photosystem II reaction center protein L (PSII-L)	Syncc9902_0225
+Q3B0C9	psbJ Syncc9902_0224	316279	PF01788;	Photosystem II reaction center protein J (PSII-J)	Syncc9902_0224
+Q3B0D3	hisS Syncc9902_0220	316279	PF03129;PF13393;	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	Syncc9902_0220
+Q3B0H7	rimM Syncc9902_0176	316279	PF24986;PF01782;	Ribosome maturation factor RimM	Syncc9902_0176
+Q3B0I3	acpP Syncc9902_0170	316279	PF00550;	Acyl carrier protein (ACP)	Syncc9902_0170
+Q3B0J2	smpB Syncc9902_0161	316279	PF01668;	SsrA-binding protein (Small protein B)	Syncc9902_0161
+Q3B0L8	fluC1 crcB1 Syncc9902_0135	316279	PF02537;	Fluoride-specific ion channel FluC 1	Syncc9902_0135
+Q3B0M2	infC Syncc9902_0131	316279	PF00707;PF05198;	Translation initiation factor IF-3	Syncc9902_0131
+Q3B0Q0	ribH Syncc9902_0103	316279	PF00885;	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	Syncc9902_0103
+Q3B0S2	mutS Syncc9902_0081	316279	PF01624;PF05188;PF05192;PF05190;PF00488;	DNA mismatch repair protein MutS	Syncc9902_0081
+Q3B0U8	rpmI rpl35 Syncc9902_0055	316279	PF01632;	Large ribosomal subunit protein bL35 (50S ribosomal protein L35)	Syncc9902_0055
+Q3B0U9	rplT rpl20 Syncc9902_0054	316279	PF00453;	Large ribosomal subunit protein bL20 (50S ribosomal protein L20)	Syncc9902_0054
+Q3B0W2	cbiD Syncc9902_0041	316279	PF01888;	Cobalt-precorrin-5B C(1)-methyltransferase (EC 2.1.1.195) (Cobalt-precorrin-6A synthase)	Syncc9902_0041
+Q3B0X4	efp Syncc9902_0029	316279	PF01132;PF08207;PF09285;	Elongation factor P (EF-P)	Syncc9902_0029
+Q3B0Y0	Syncc9902_0023	316279	PF02575;	Nucleoid-associated protein Syncc9902_0023	Syncc9902_0023
+Q3B0Y4	grpE Syncc9902_0019	316279	PF01025;	Protein GrpE (HSP-70 cofactor)	Syncc9902_0019
+Q3B0Z0	argH Syncc9902_0013	316279	PF14698;PF00206;	Argininosuccinate lyase (ASAL) (EC 4.3.2.1) (Arginosuccinase)	Syncc9902_0013
+Q3AUX8	minE Syncc9902_1854	316279	PF03776;	Cell division topological specificity factor	Syncc9902_1854
+Q3AW12	hrcA Syncc9902_2097	316279	PF01628;	Heat-inducible transcription repressor HrcA	Syncc9902_2097
+Q3AW20	Syncc9902_2089	316279	PF02464;PF18146;PF00994;	CinA-like protein	Syncc9902_2089
+Q3AWN7	Syncc9902_1708	316279	PF04461;	Nucleotide-binding protein Syncc9902_1708	Syncc9902_1708
+Q3AWW6	Syncc9902_1589	316279	PF01809;	Putative membrane protein insertion efficiency factor	Syncc9902_1589
+Q3AXF2	Syncc9902_1284	316279	PF02021;	UPF0102 protein Syncc9902_1284	Syncc9902_1284
+Q3AXS1	Syncc9902_1151	316279	PF03699;	UPF0182 protein Syncc9902_1151	Syncc9902_1151
+Q3AZG7	Syncc9902_0542	316279	PF20772;PF01709;	Probable transcriptional regulatory protein Syncc9902_0542	Syncc9902_0542
+Q3B039	Syncc9902_0316 Syncc9902_1952a	316279	PF26132;	UPF0367 protein Syncc9902_0316	Syncc9902_0316
+Q3B078	sfsA Syncc9902_0277	316279	PF03749;PF17746;	Sugar fermentation stimulation protein homolog	Syncc9902_0277
