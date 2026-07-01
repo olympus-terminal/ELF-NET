@@ -43,7 +43,7 @@ def fetch_batch(cursor=None):
 
     url = f"{UNIPROT_API}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url)
-    req.add_header('User-Agent', 'Python/Chlamy-Pfam-Analysis (davidroynelson@gmail.com)')
+    req.add_header('User-Agent', 'Python/Chlamy-Pfam-Analysis (drn2@nyu.edu)')
 
     with urllib.request.urlopen(req, timeout=60) as response:
         data = response.read().decode('utf-8')

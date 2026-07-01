@@ -229,7 +229,7 @@ def main():
             }
             url = f"https://rest.uniprot.org/uniprotkb/search?{urllib.parse.urlencode(params)}"
             req = urllib.request.Request(url)
-            req.add_header('User-Agent', 'Python/Chlamy-Pfam-Analysis (davidroynelson@gmail.com)')
+            req.add_header('User-Agent', 'Python/Chlamy-Pfam-Analysis (drn2@nyu.edu)')
 
             try:
                 with urllib.request.urlopen(req, timeout=60) as response:

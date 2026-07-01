@@ -1,9 +1,69 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
-.DS_Store
 *.egg-info/
+build/
+dist/
+venv/
+.venv/
+
+# Data files (deposited on Zenodo)
+*.csv
+*.tsv
+*.txt
+!README.txt
+!requirements.txt
+*.xls
+*.xlsx
+*.json
+
+# Binary/model files
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.h5
+*.safetensors
+*.ckpt
+*.joblib
+
+# Archives
+*.gz
+*.tar
+*.zip
+
+# Sequence data
+*.fa
+*.faa
+*.fasta
+*.gff
+
+# Images and documents
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Editors and IDEs
+.DS_Store
+.vscode/
+.idea/
+
+# Environment and credentials
 .env
+hf_token.txt
+*_api_key.txt
+
+# Logs and temp
 *.log
 *.tmp
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Audit report (not part of the code release)
+AUDIT_REPORT_*.md

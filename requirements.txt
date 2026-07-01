@@ -1,0 +1,39 @@
+# ELF-NET Python dependencies
+# Tested with Python 3.10.12 on NVIDIA A100 (CUDA 12.x)
+
+# Core scientific computing
+numpy>=1.24
+pandas>=1.5
+scipy>=1.9
+
+# Machine learning
+scikit-learn>=1.2
+xgboost>=1.7
+shap>=0.41
+
+# Deep learning (GPU recommended)
+torch>=2.1
+
+# Protein language models
+transformers>=4.30
+
+# Dimensionality reduction
+umap-learn>=0.5
+
+# Bioinformatics
+biopython>=1.81
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Earth Engine (for satellite data extraction)
+earthengine-api>=0.1.350
+
+# Climate data
+xarray>=2023.1
+netCDF4>=1.6
+
+# Utilities
+joblib>=1.2
+tqdm>=4.65

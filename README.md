@@ -49,9 +49,15 @@ Scripts were developed and executed across two environments:
 
 SBATCH submission scripts (`.sbatch`) are included for HPC reproducibility.
 
+**Note on paths:** Scripts contain hardcoded paths referencing the original HPC environment (`/scratch/drn2/PROJECTS/TARA-LA4SR/`) and local development machine (`/media/drn2/External/TARA-Oceans/`). Many scripts include hostname-based environment detection that switches paths automatically; others will need manual path adjustment. All input data referenced by these paths is available from the Zenodo deposits listed below.
+
 ## Dependencies
 
-**Python packages:** `numpy`, `pandas`, `scipy`, `scikit-learn`, `xgboost`, `shap`, `umap-learn`, `matplotlib`, `torch`, `transformers`, `biopython`
+Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 **External tools:** HMMER 3.x, MMseqs2, ESMFold, Boltz-2, AlphaFold 3, Foldseek, SNAP, InterProScan 5.74-105.0, nanoGPT
 
@@ -118,4 +124,4 @@ Kourosh Salehi-Ashtiani -- ksa3@nyu.edu
 
 ## License
 
-See manuscript for terms of use.
+MIT License. See [LICENSE](LICENSE) for details.

@@ -75,7 +75,7 @@ plt.rcParams.update({
     'grid.linestyle':     ':',
 })
 
-BASE = '/home/sd145/Desktop/dark_proteome'
+BASE = os.environ.get('DARK_PROTEOME_DIR', '/home/sd145/Desktop/dark_proteome')
 
 # ── CSV loader ────────────────────────────────────────────────────────────────
 def load_csv_metric(folder, metric_key):

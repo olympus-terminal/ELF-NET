@@ -34,11 +34,11 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 
-sys.path.insert(0, '/home/sd145/dark-whiteGPLM')
+ROOT    = os.environ.get('DARK_WHITEGPLM_DIR', '/home/sd145/dark-whiteGPLM')
+sys.path.insert(0, ROOT)
 from model import GPTConfig, GPT
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-ROOT    = '/home/sd145/dark-whiteGPLM'
 OUT_DIR = f'{ROOT}/analysis/figures'
 os.makedirs(OUT_DIR, exist_ok=True)
 
