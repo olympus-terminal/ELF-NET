@@ -75,8 +75,8 @@ pip install -r requirements.txt
 
 | Deposit | DOI |
 |---------|-----|
-| Data S1: Domain-environment association and modeling results | [10.5281/zenodo.18538439](https://doi.org/10.5281/zenodo.18538439) |
-| Data S2: algaGPT-purified algal protein sequences | [10.5281/zenodo.18728837](https://doi.org/10.5281/zenodo.18728837) |
+| Data S1: Domain-environment association and modeling results | [10.5281/zenodo.18538438](https://doi.org/10.5281/zenodo.18538438) |
+| Data S2: algaGPT-classified algal protein sequences | [10.5281/zenodo.18728836](https://doi.org/10.5281/zenodo.18728836) |
 | Data S3: Pfam-A hmmsearch results | [10.5281/zenodo.18786751](https://doi.org/10.5281/zenodo.18786751) |
 | Data S4: RuBisCO lineage analysis package | [10.5281/zenodo.18786775](https://doi.org/10.5281/zenodo.18786775) |
 | Data S5: AlphaEarth satellite embedding matrix | [10.5281/zenodo.18786762](https://doi.org/10.5281/zenodo.18786762) |
