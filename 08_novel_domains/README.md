@@ -3,6 +3,11 @@
 Discovers recurrent novel protein families in the TARA-OMEN Pfam-dark proteome
 via de novo clustering, HMM profiling, and environmental correlation analysis.
 
+This module accompanies Nelson et al., *Coupling of oceanographic state to the
+dark proteome: a foundation for genome-informed marine productivity modeling*
+(manuscript submitted for publication). See the repository-level README for the
+complete citation and related data deposits.
+
 ## Prerequisites
 
 - **HPC cluster**: Jubail (NYU Abu Dhabi), SLURM scheduler

@@ -2,7 +2,7 @@
 
 **Coupling of oceanographic state to the dark proteome: a foundation for genome-informed marine productivity modeling**
 
-Complete analysis pipeline (371 scripts, 15 modules) for the ELF-NET study, integrating protein language model classification, Pfam domain annotation, satellite foundation model embeddings, and machine learning to characterize genome-environment coupling across 2,357 ocean samples and 221.9 million algal protein sequences from the TARA Oceans metagenomic dataset.
+Complete analysis pipeline (371 scripts, 15 modules) for the ELF-NET study, integrating protein language model classification, Pfam domain annotation, satellite foundation model embeddings, and machine learning to characterize genome-environment coupling. The input collection contained 2,357 ocean metagenomes, marine eukaryotic transcriptomes, and cultured reference proteomes; the 2,044-sample domain-analysis set contained 231.7 million proteins classified as algal.
 
 ## Repository Structure
 
@@ -27,7 +27,7 @@ Complete analysis pipeline (371 scripts, 15 modules) for the ELF-NET study, inte
 
 ## Key Methods
 
-**Protein classification.** algaGPT (nanoGPT-based) and LA4SR (Pythia-based) classifiers extract algal proteomes from metagenomic assemblies at >99% recall, ~10,000x faster than BLASTp.
+**Protein classification.** algaGPT, the primary classifier used in the study, is based on the GPT-2/nanoGPT architecture; the repository also preserves the Pythia-based LA4SR comparison workflow. Published whole-proteome tests produced predictions for >99% of sequences, while the matched algaGPT benchmark retained 83.3% of algal proteins and achieved >95% precision for the bacterial class. These are distinct performance measures. Inference was ~10,000-fold faster than BLASTp.
 
 **Satellite-metagenome fusion.** AlphaEarth 64-dimensional satellite embeddings fused with Pfam domain profiles -- first integration of satellite foundation models with ocean metagenomics.
 
@@ -99,7 +99,7 @@ Green Genomics Lab, New York University Abu Dhabi
 @article{nelson2026elfnet,
   title   = {Coupling of oceanographic state to the dark proteome: a foundation for genome-informed marine productivity modeling},
   author  = {Nelson, David Roy and Plouviez, Maxence and Daakour, Sarah and Jaiswal, Ashish and Fu, Weiqi and Amin, Shady A. and Salehi-Ashtiani, Kourosh},
-  journal = {Forthcoming},
+  note    = {Manuscript submitted for publication},
   year    = {2026}
 }
 ```
